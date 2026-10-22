@@ -1,0 +1,254 @@
+@import 'tailwindcss';
+
+/* Inter (variable, latin subset) is bundled from node_modules: no external font requests. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* ---- Design tokens -------------------------------------------------------
+   One calm accent (deep teal), a neutral base, and status colours that are used
+   ONLY to express expiry state. */
+:root {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --surface-2: #f1f3f4;
+  --line: #e2e6e8;
+  --line-strong: #cbd2d6;
+  --fg: #14201f;
+  --muted: #566567;
+  --accent: #0f6b64;
+  --accent-hover: #0b5a54;
+  --accent-fg: #ffffff;
+  --accent-soft: #e2f1ef;
+  --accent-soft-fg: #0b4f4a;
+  --ok-bg: #e3f4e9;
+  --ok-fg: #15602f;
+  --soon-bg: #fcefd0;
+  --soon-fg: #7a4300;
+  --exp-bg: #fbe3e3;
+  --exp-fg: #9b1c1c;
+  --shadow-sm: 0 1px 2px rgb(16 32 31 / 0.06);
+  --shadow-md: 0 4px 16px rgb(16 32 31 / 0.08);
+  --shadow-lg: 0 12px 40px rgb(16 32 31 / 0.16);
+  --overlay: rgb(10 20 20 / 0.45);
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0d1415;
+  --surface: #141d1e;
+  --surface-2: #1a2526;
+  --line: #243133;
+  --line-strong: #34484a;
+  --fg: #e8eeee;
+  --muted: #9bacae;
+  --accent: #2aa79c;
+  --accent-hover: #3dbdb1;
+  --accent-fg: #06201e;
+  --accent-soft: #123432;
+  --accent-soft-fg: #8fe0d7;
+  --ok-bg: #12301d;
+  --ok-fg: #7fdca0;
+  --soon-bg: #3a2c0d;
+  --soon-fg: #f2c46b;
+  --exp-bg: #3d1515;
+  --exp-fg: #f59d9d;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 16px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 12px 40px rgb(0 0 0 / 0.6);
+  --overlay: rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-soft-fg: var(--accent-soft-fg);
+  --color-ok-bg: var(--ok-bg);
+  --color-ok-fg: var(--ok-fg);
+  --color-soon-bg: var(--soon-bg);
+  --color-soon-fg: var(--soon-fg);
+  --color-exp-bg: var(--exp-bg);
+  --color-exp-fg: var(--exp-fg);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --radius-card: 14px;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 15px;
+  line-height: 1.5;
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+button,
+[role='button'],
+select,
+input[type='checkbox'] {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.anim-fade {
+  animation: fade-in 0.15s ease-out;
+}
+.anim-up {
+  animation: slide-up 0.2s ease-out;
+}
+.anim-left {
+  animation: slide-left 0.2s ease-out;
+}
+
+/* Inputs used across forms. */
+.field {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--fg);
+  font-size: 15px;
+  transition:
+    border-color 0.12s,
+    box-shadow 0.12s;
+}
+.field::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
+}
+.field:hover {
+  border-color: var(--muted);
+}
+.field:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+/* Inline-editable table cells look like text until hovered or focused. */
+.cell-input {
+  width: 100%;
+  min-height: 36px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  text-overflow: ellipsis;
+}
+.cell-input:hover {
+  border-color: var(--line-strong);
+  background: var(--surface);
+}
+.cell-input:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+/* Print: show only the printable list. */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+.print-only {
+  display: none;
+}
+
+.menu-item {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: left;
+  font-size: 14px;
+}
+.menu-item:hover {
+  background: var(--surface-2);
+}

@@ -1,0 +1,10 @@
+dist
+node_modules
+public/models
+public/vendor
+public/data
+package-lock.json
+tests/fixtures
+coverage
+playwright-report
+test-results

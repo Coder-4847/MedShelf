@@ -1,0 +1,3912 @@
+[
+  {
+    "name": "Panadol",
+    "generic": "Paracetamol",
+    "aliases": ["Panadol Tablets"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Extra",
+    "generic": "Paracetamol + Caffeine",
+    "aliases": ["Panadol Extra Advance"],
+    "strengths": ["500 mg/65 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Advance",
+    "generic": "Paracetamol",
+    "aliases": ["Panadol Advance Optizorb"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Night",
+    "generic": "Paracetamol + Diphenhydramine",
+    "aliases": ["Panadol Night Pain"],
+    "strengths": ["500 mg/25 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Joint",
+    "generic": "Paracetamol",
+    "aliases": ["Panadol Osteo", "Panadol Arthritis"],
+    "strengths": ["665 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Cold & Flu",
+    "generic": "Paracetamol + Phenylephrine",
+    "aliases": ["Panadol Cold and Flu", "Panadol Cold Flu"],
+    "strengths": ["500 mg/5 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Panadol Children",
+    "generic": "Paracetamol",
+    "aliases": ["Panadol Baby", "Panadol Infant", "Panadol Kids"],
+    "strengths": ["120 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["syrup", "suspension", "drops"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Adol",
+    "generic": "Paracetamol",
+    "aliases": ["Adol Tablets"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Adol Extra",
+    "generic": "Paracetamol + Caffeine",
+    "aliases": [],
+    "strengths": ["500 mg/65 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Adol Cold & Flu",
+    "generic": "Paracetamol + Phenylephrine",
+    "aliases": ["Adol Cold and Flu"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Adol Baby",
+    "generic": "Paracetamol",
+    "aliases": ["Adol Drops", "Adol Syrup", "Adol Suppositories"],
+    "strengths": ["100 mg/ml", "125 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["drops", "syrup", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Cetal",
+    "generic": "Paracetamol",
+    "aliases": ["Cetal Tablets"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Cetal Sinus",
+    "generic": "Paracetamol + Pseudoephedrine",
+    "aliases": ["Cetal Sinus Tablets"],
+    "strengths": ["500 mg/30 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Cetal Cold & Flu",
+    "generic": "Paracetamol + Phenylephrine + Chlorpheniramine",
+    "aliases": ["Cetal Cold and Flu"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Cetal Baby",
+    "generic": "Paracetamol",
+    "aliases": ["Cetal Syrup", "Cetal Drops", "Cetal Suppositories"],
+    "strengths": ["120 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["syrup", "drops", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Fevadol",
+    "generic": "Paracetamol",
+    "aliases": [],
+    "strengths": ["500 mg", "1 g"],
+    "forms": ["tablet", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Calpol",
+    "generic": "Paracetamol",
+    "aliases": ["Calpol Infant Suspension", "Calpol Sixplus"],
+    "strengths": ["120 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["suspension"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Tempra",
+    "generic": "Paracetamol",
+    "aliases": [],
+    "strengths": ["160 mg/5 ml", "100 mg/ml"],
+    "forms": ["syrup", "drops"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Paracetamol",
+    "generic": "Paracetamol",
+    "aliases": ["Acetaminophen", "Paracetamole", "Paracetamol Tablets"],
+    "strengths": ["500 mg", "650 mg", "1 g", "120 mg/5 ml"],
+    "forms": ["tablet", "syrup", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Acetaminophen",
+    "generic": "Paracetamol",
+    "aliases": ["APAP", "Tylenol"],
+    "strengths": ["500 mg", "325 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Tylenol",
+    "generic": "Paracetamol",
+    "aliases": [],
+    "strengths": ["500 mg", "325 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Paramol",
+    "generic": "Paracetamol + Dihydrocodeine",
+    "aliases": [],
+    "strengths": ["500 mg/7.46 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Brufen",
+    "generic": "Ibuprofen",
+    "aliases": ["Brufen Retard"],
+    "strengths": ["200 mg", "400 mg", "600 mg"],
+    "forms": ["tablet", "syrup"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Nurofen",
+    "generic": "Ibuprofen",
+    "aliases": ["Nurofen Express", "Nurofen Plus"],
+    "strengths": ["200 mg", "400 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Nurofen for Children",
+    "generic": "Ibuprofen",
+    "aliases": ["Nurofen Kids", "Nurofen Junior", "Nurofen Syrup"],
+    "strengths": ["100 mg/5 ml"],
+    "forms": ["suspension", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Ibuprofen",
+    "generic": "Ibuprofen",
+    "aliases": ["Ibuprofen Tablets", "Ibufen", "Ibuprofene"],
+    "strengths": ["200 mg", "400 mg", "600 mg"],
+    "forms": ["tablet", "syrup", "gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Advil",
+    "generic": "Ibuprofen",
+    "aliases": ["Advil Liqui-Gels"],
+    "strengths": ["200 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Voltaren",
+    "generic": "Diclofenac",
+    "aliases": ["Voltaren SR", "Voltaren Retard"],
+    "strengths": ["50 mg", "75 mg", "100 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Voltaren Emulgel",
+    "generic": "Diclofenac",
+    "aliases": ["Voltaren Gel", "Emulgel"],
+    "strengths": ["1%", "2.32%"],
+    "forms": ["gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Cataflam",
+    "generic": "Diclofenac Potassium",
+    "aliases": ["Cataflam D", "Cataflam 50"],
+    "strengths": ["25 mg", "50 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Voltfast",
+    "generic": "Diclofenac Potassium",
+    "aliases": ["Voltfast Sachet"],
+    "strengths": ["50 mg"],
+    "forms": ["sachet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Diclofenac",
+    "generic": "Diclofenac",
+    "aliases": ["Diclofenac Sodium", "Diclofenac Potassium", "Diclo"],
+    "strengths": ["25 mg", "50 mg", "75 mg", "100 mg"],
+    "forms": ["tablet", "gel", "injection", "suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Olfen",
+    "generic": "Diclofenac",
+    "aliases": ["Olfen Gel", "Olfen Patch"],
+    "strengths": ["50 mg", "75 mg"],
+    "forms": ["tablet", "gel", "patch"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Flector",
+    "generic": "Diclofenac Epolamine",
+    "aliases": ["Flector Patch", "Flector Tissugel"],
+    "strengths": ["1.3%"],
+    "forms": ["patch"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Naproxen",
+    "generic": "Naproxen",
+    "aliases": ["Naproxen Sodium"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Naprosyn",
+    "generic": "Naproxen",
+    "aliases": ["Naprosyn EC"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Aleve",
+    "generic": "Naproxen Sodium",
+    "aliases": [],
+    "strengths": ["220 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Apranax",
+    "generic": "Naproxen Sodium",
+    "aliases": [],
+    "strengths": ["275 mg", "550 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Ponstan",
+    "generic": "Mefenamic Acid",
+    "aliases": ["Ponstan Forte"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Mefenamic Acid",
+    "generic": "Mefenamic Acid",
+    "aliases": ["Mefenamic"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Celebrex",
+    "generic": "Celecoxib",
+    "aliases": [],
+    "strengths": ["100 mg", "200 mg"],
+    "forms": ["capsule"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Celecoxib",
+    "generic": "Celecoxib",
+    "aliases": [],
+    "strengths": ["100 mg", "200 mg"],
+    "forms": ["capsule"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Arcoxia",
+    "generic": "Etoricoxib",
+    "aliases": [],
+    "strengths": ["30 mg", "60 mg", "90 mg", "120 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Etoricoxib",
+    "generic": "Etoricoxib",
+    "aliases": [],
+    "strengths": ["60 mg", "90 mg", "120 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Mobic",
+    "generic": "Meloxicam",
+    "aliases": [],
+    "strengths": ["7.5 mg", "15 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Meloxicam",
+    "generic": "Meloxicam",
+    "aliases": ["Movalis", "Meloxicam Tablets"],
+    "strengths": ["7.5 mg", "15 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Ketoprofen",
+    "generic": "Ketoprofen",
+    "aliases": ["Profenid", "Fastum"],
+    "strengths": ["50 mg", "100 mg", "2.5%"],
+    "forms": ["capsule", "gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Fastum Gel",
+    "generic": "Ketoprofen",
+    "aliases": ["Fastum"],
+    "strengths": ["2.5%"],
+    "forms": ["gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Piroxicam",
+    "generic": "Piroxicam",
+    "aliases": ["Feldene"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["capsule", "gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Ketorolac",
+    "generic": "Ketorolac",
+    "aliases": ["Toradol", "Ketorolac Tromethamine"],
+    "strengths": ["10 mg", "30 mg/ml"],
+    "forms": ["tablet", "injection"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Aspirin",
+    "generic": "Acetylsalicylic Acid",
+    "aliases": ["Aspirin Protect", "Aspirin Cardio"],
+    "strengths": ["75 mg", "81 mg", "100 mg", "300 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Disprin",
+    "generic": "Aspirin",
+    "aliases": ["Disprin Soluble"],
+    "strengths": ["300 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Aspent",
+    "generic": "Acetylsalicylic Acid",
+    "aliases": ["Aspent 75", "Aspent 81"],
+    "strengths": ["75 mg", "81 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Cardiprin",
+    "generic": "Acetylsalicylic Acid",
+    "aliases": [],
+    "strengths": ["100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Aspegic",
+    "generic": "Acetylsalicylate Lysine",
+    "aliases": [],
+    "strengths": ["100 mg", "500 mg", "1000 mg"],
+    "forms": ["sachet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Solpadeine",
+    "generic": "Paracetamol + Codeine + Caffeine",
+    "aliases": ["Solpadeine Plus", "Solpadeine Max"],
+    "strengths": ["500 mg/8 mg/30 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Tramal",
+    "generic": "Tramadol",
+    "aliases": ["Tramal Retard", "Tramal Drops"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["capsule", "tablet", "drops"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Tramadol",
+    "generic": "Tramadol",
+    "aliases": ["Tramadol HCl"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Zaldiar",
+    "generic": "Tramadol + Paracetamol",
+    "aliases": [],
+    "strengths": ["37.5 mg/325 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Mydocalm",
+    "generic": "Tolperisone",
+    "aliases": ["Tolperisone"],
+    "strengths": ["50 mg", "150 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Sirdalud",
+    "generic": "Tizanidine",
+    "aliases": ["Tizanidine"],
+    "strengths": ["2 mg", "4 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Robaxin",
+    "generic": "Methocarbamol",
+    "aliases": ["Methocarbamol"],
+    "strengths": ["500 mg", "750 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Norflex",
+    "generic": "Orphenadrine",
+    "aliases": ["Orphenadrine"],
+    "strengths": ["100 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Muscoril",
+    "generic": "Thiocolchicoside",
+    "aliases": ["Thiocolchicoside", "Coltrax"],
+    "strengths": ["4 mg", "8 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Deep Relief",
+    "generic": "Ibuprofen + Levomenthol",
+    "aliases": ["Deep Relief Gel"],
+    "strengths": ["5%/3%"],
+    "forms": ["gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Salonpas",
+    "generic": "Methyl Salicylate + Menthol",
+    "aliases": ["Salonpas Patch"],
+    "strengths": [],
+    "forms": ["patch"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Iodex",
+    "generic": "Iodine + Methyl Salicylate",
+    "aliases": [],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Biofreeze",
+    "generic": "Menthol",
+    "aliases": [],
+    "strengths": ["4%"],
+    "forms": ["gel", "spray"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Dolo-Neurobion",
+    "generic": "Diclofenac + B Vitamins",
+    "aliases": ["Dolo Neurobion"],
+    "strengths": ["50 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Neurobion",
+    "generic": "Vitamin B1 + B6 + B12",
+    "aliases": ["Neurobion Forte", "Neurobion Injection"],
+    "strengths": ["100 mg/200 mg/200 mcg"],
+    "forms": ["tablet", "injection"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Neurorubine",
+    "generic": "Vitamin B1 + B6 + B12",
+    "aliases": ["Neurorubine Forte"],
+    "strengths": ["200 mg/50 mg/1 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Congestal",
+    "generic": "Paracetamol + Pseudoephedrine + Chlorpheniramine",
+    "aliases": ["Congestal Tablets", "Congestal Syrup"],
+    "strengths": ["500 mg/30 mg/2 mg"],
+    "forms": ["tablet", "syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Actifed",
+    "generic": "Triprolidine + Pseudoephedrine",
+    "aliases": ["Actifed Syrup", "Actifed Tablets"],
+    "strengths": ["2.5 mg/60 mg"],
+    "forms": ["tablet", "syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Sudafed",
+    "generic": "Pseudoephedrine",
+    "aliases": ["Sudafed Congestion"],
+    "strengths": ["60 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Sinex",
+    "generic": "Oxymetazoline",
+    "aliases": ["Sinex Nasal Spray"],
+    "strengths": ["0.05%"],
+    "forms": ["spray"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Fludrex",
+    "generic": "Paracetamol + Pseudoephedrine + Dextromethorphan",
+    "aliases": ["Fludrex Syrup"],
+    "strengths": [],
+    "forms": ["tablet", "syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Theraflu",
+    "generic": "Paracetamol + Pheniramine + Phenylephrine",
+    "aliases": ["Theraflu Sachet", "Theraflu Max"],
+    "strengths": ["650 mg"],
+    "forms": ["sachet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Lemsip",
+    "generic": "Paracetamol + Phenylephrine",
+    "aliases": ["Lemsip Max", "Lemsip Cold & Flu"],
+    "strengths": ["500 mg/10 mg"],
+    "forms": ["sachet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Benylin",
+    "generic": "Dextromethorphan",
+    "aliases": ["Benylin Dry Cough", "Benylin Chesty"],
+    "strengths": [],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Vicks VapoRub",
+    "generic": "Menthol + Camphor + Eucalyptus",
+    "aliases": ["VapoRub", "Vicks Vaporub"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Vicks Formula 44",
+    "generic": "Dextromethorphan",
+    "aliases": ["Vicks 44"],
+    "strengths": [],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Vicks Inhaler",
+    "generic": "Menthol",
+    "aliases": ["Vicks Nasal Inhaler"],
+    "strengths": [],
+    "forms": ["inhaler"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Strepsils",
+    "generic": "Amylmetacresol + Dichlorobenzyl Alcohol",
+    "aliases": ["Strepsils Honey & Lemon", "Strepsils Extra", "Strepsils Orange"],
+    "strengths": ["1.2 mg/0.6 mg"],
+    "forms": ["lozenge"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Difflam",
+    "generic": "Benzydamine",
+    "aliases": ["Difflam Lozenges", "Difflam Spray", "Difflam Mouthwash"],
+    "strengths": ["3 mg", "0.15%"],
+    "forms": ["lozenge", "spray", "solution"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Dequadin",
+    "generic": "Dequalinium Chloride",
+    "aliases": ["Dequadin Lozenges"],
+    "strengths": ["0.25 mg"],
+    "forms": ["lozenge"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Tantum Verde",
+    "generic": "Benzydamine",
+    "aliases": ["Tantum Verde Spray", "Tantum Verde Lozenges", "Tantum Verde Gargle"],
+    "strengths": ["0.15%", "3 mg"],
+    "forms": ["spray", "lozenge", "solution"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Hexoral",
+    "generic": "Hexetidine",
+    "aliases": ["Hexoral Spray", "Hexoral Mouthwash"],
+    "strengths": ["0.1%"],
+    "forms": ["spray", "solution"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Bioxidine",
+    "generic": "Hexetidine",
+    "aliases": [],
+    "strengths": ["0.1%"],
+    "forms": ["solution"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Orofar",
+    "generic": "Domiphen + Lidocaine",
+    "aliases": ["Orofar Lozenges"],
+    "strengths": [],
+    "forms": ["lozenge", "spray"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Otrivin",
+    "generic": "Xylometazoline",
+    "aliases": ["Otrivin Nasal Spray", "Otrivin Drops", "Otrivin Adult", "Otrivin Baby"],
+    "strengths": ["0.05%", "0.1%"],
+    "forms": ["spray", "drops"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Nasivin",
+    "generic": "Oxymetazoline",
+    "aliases": ["Nasivin Baby", "Nasivin Soft"],
+    "strengths": ["0.01%", "0.025%", "0.05%"],
+    "forms": ["drops", "spray"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Sterimar",
+    "generic": "Sea Water",
+    "aliases": ["Sterimar Baby", "Sterimar Hypertonic"],
+    "strengths": [],
+    "forms": ["spray"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Physiomer",
+    "generic": "Sea Water",
+    "aliases": [],
+    "strengths": [],
+    "forms": ["spray"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Mucosolvan",
+    "generic": "Ambroxol",
+    "aliases": ["Mucosolvan Syrup", "Mucosolvan Drops"],
+    "strengths": ["15 mg/5 ml", "30 mg/5 ml", "30 mg"],
+    "forms": ["syrup", "tablet", "drops"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Ambroxol",
+    "generic": "Ambroxol",
+    "aliases": ["Ambrox", "Ambroxol HCl"],
+    "strengths": ["15 mg/5 ml", "30 mg"],
+    "forms": ["syrup", "tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Bisolvon",
+    "generic": "Bromhexine",
+    "aliases": ["Bromhexine"],
+    "strengths": ["4 mg/5 ml", "8 mg"],
+    "forms": ["syrup", "tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Rhinathiol",
+    "generic": "Carbocisteine",
+    "aliases": ["Carbocisteine", "Rhinathiol Syrup", "Mucodyne"],
+    "strengths": ["250 mg/5 ml", "750 mg/15 ml"],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Prospan",
+    "generic": "Ivy Leaf Extract",
+    "aliases": ["Prospan Syrup"],
+    "strengths": ["35 mg/5 ml"],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Sinecod",
+    "generic": "Butamirate",
+    "aliases": ["Sinecod Syrup", "Sinecod Drops"],
+    "strengths": ["1.5 mg/ml"],
+    "forms": ["syrup", "drops"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Toplexil",
+    "generic": "Oxomemazine + Guaifenesin",
+    "aliases": ["Toplexil Syrup"],
+    "strengths": [],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Mucinex",
+    "generic": "Guaifenesin",
+    "aliases": [],
+    "strengths": ["600 mg"],
+    "forms": ["tablet"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Ventolin",
+    "generic": "Salbutamol",
+    "aliases": ["Ventolin Inhaler", "Ventolin Evohaler", "Ventolin Nebules"],
+    "strengths": ["100 mcg", "2.5 mg/2.5 ml"],
+    "forms": ["inhaler", "solution"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Salbutamol",
+    "generic": "Salbutamol",
+    "aliases": ["Albuterol", "Salbutamol Inhaler"],
+    "strengths": ["100 mcg", "2 mg/5 ml"],
+    "forms": ["inhaler", "syrup", "tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Flixotide",
+    "generic": "Fluticasone",
+    "aliases": ["Flixotide Inhaler"],
+    "strengths": ["50 mcg", "125 mcg", "250 mcg"],
+    "forms": ["inhaler"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Seretide",
+    "generic": "Salmeterol + Fluticasone",
+    "aliases": ["Seretide Evohaler", "Seretide Diskus"],
+    "strengths": ["25/125 mcg", "50/250 mcg", "50/500 mcg"],
+    "forms": ["inhaler"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Symbicort",
+    "generic": "Budesonide + Formoterol",
+    "aliases": ["Symbicort Turbuhaler"],
+    "strengths": ["160/4.5 mcg", "320/9 mcg"],
+    "forms": ["inhaler"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Spiriva",
+    "generic": "Tiotropium",
+    "aliases": ["Spiriva Handihaler", "Spiriva Respimat"],
+    "strengths": ["18 mcg", "2.5 mcg"],
+    "forms": ["inhaler"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Atrovent",
+    "generic": "Ipratropium",
+    "aliases": ["Atrovent Inhaler", "Atrovent Nebules"],
+    "strengths": ["20 mcg", "250 mcg/ml"],
+    "forms": ["inhaler", "solution"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Pulmicort",
+    "generic": "Budesonide",
+    "aliases": ["Pulmicort Turbuhaler", "Pulmicort Respules"],
+    "strengths": ["100 mcg", "200 mcg", "0.5 mg/2 ml"],
+    "forms": ["inhaler", "solution"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Singulair",
+    "generic": "Montelukast",
+    "aliases": ["Singulair Chewable"],
+    "strengths": ["4 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Montelukast",
+    "generic": "Montelukast",
+    "aliases": ["Montelukast Sodium", "Montair", "Montelair"],
+    "strengths": ["4 mg", "5 mg", "10 mg"],
+    "forms": ["tablet", "sachet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Telfast",
+    "generic": "Fexofenadine",
+    "aliases": ["Telfast 120", "Telfast 180"],
+    "strengths": ["120 mg", "180 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Fexofenadine",
+    "generic": "Fexofenadine",
+    "aliases": ["Allegra", "Fexofenadine HCl"],
+    "strengths": ["120 mg", "180 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Zyrtec",
+    "generic": "Cetirizine",
+    "aliases": ["Zyrtec Drops", "Zyrtec Syrup"],
+    "strengths": ["10 mg", "5 mg/5 ml", "10 mg/ml"],
+    "forms": ["tablet", "syrup", "drops"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Cetirizine",
+    "generic": "Cetirizine",
+    "aliases": ["Cetirizine HCl", "Cetrizine", "Cetirizine Dihydrochloride"],
+    "strengths": ["5 mg/5 ml", "10 mg"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Claritin",
+    "generic": "Loratadine",
+    "aliases": ["Clarityn", "Claritin Syrup"],
+    "strengths": ["10 mg", "5 mg/5 ml"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Loratadine",
+    "generic": "Loratadine",
+    "aliases": ["Lorano", "Loratadine Tablets"],
+    "strengths": ["10 mg", "5 mg/5 ml"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Aerius",
+    "generic": "Desloratadine",
+    "aliases": ["Aerius Syrup"],
+    "strengths": ["5 mg", "0.5 mg/ml"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Desloratadine",
+    "generic": "Desloratadine",
+    "aliases": ["Deslor"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Xyzal",
+    "generic": "Levocetirizine",
+    "aliases": ["Xyzal Tablets"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Levocetirizine",
+    "generic": "Levocetirizine",
+    "aliases": [],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Rupafin",
+    "generic": "Rupatadine",
+    "aliases": [],
+    "strengths": ["10 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Ebastel",
+    "generic": "Ebastine",
+    "aliases": ["Ebastine"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Piriton",
+    "generic": "Chlorphenamine",
+    "aliases": ["Chlorpheniramine", "Chlorphenamine", "Piriton Tablets"],
+    "strengths": ["4 mg", "2 mg/5 ml"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Benadryl",
+    "generic": "Diphenhydramine",
+    "aliases": ["Benadryl Syrup", "Benadryl Capsules"],
+    "strengths": ["14 mg/5 ml", "25 mg"],
+    "forms": ["syrup", "capsule"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Phenergan",
+    "generic": "Promethazine",
+    "aliases": ["Promethazine"],
+    "strengths": ["10 mg", "25 mg"],
+    "forms": ["tablet", "syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Atarax",
+    "generic": "Hydroxyzine",
+    "aliases": ["Hydroxyzine"],
+    "strengths": ["10 mg", "25 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Fenistil",
+    "generic": "Dimetindene",
+    "aliases": ["Fenistil Gel", "Fenistil Drops"],
+    "strengths": ["1 mg/ml", "0.1%"],
+    "forms": ["gel", "drops"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Nasonex",
+    "generic": "Mometasone",
+    "aliases": ["Nasonex Nasal Spray", "Mometasone"],
+    "strengths": ["50 mcg"],
+    "forms": ["spray"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Avamys",
+    "generic": "Fluticasone Furoate",
+    "aliases": ["Avamys Nasal Spray"],
+    "strengths": ["27.5 mcg"],
+    "forms": ["spray"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Flonase",
+    "generic": "Fluticasone Propionate",
+    "aliases": ["Flixonase", "Flonase Nasal Spray"],
+    "strengths": ["50 mcg"],
+    "forms": ["spray"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Rhinocort",
+    "generic": "Budesonide",
+    "aliases": ["Rhinocort Aqua"],
+    "strengths": ["64 mcg"],
+    "forms": ["spray"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Prednisolone",
+    "generic": "Prednisolone",
+    "aliases": ["Prednisone", "Deltacortril", "Predniso"],
+    "strengths": ["5 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Dexamethasone",
+    "generic": "Dexamethasone",
+    "aliases": ["Dexona", "Decadron"],
+    "strengths": ["0.5 mg", "4 mg", "8 mg/2 ml"],
+    "forms": ["tablet", "injection"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Medrol",
+    "generic": "Methylprednisolone",
+    "aliases": ["Methylprednisolone", "Solu-Medrol"],
+    "strengths": ["4 mg", "16 mg", "40 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Hydrocortisone",
+    "generic": "Hydrocortisone",
+    "aliases": ["Hydrocortisone Cream", "Hydrocortisone Tablets"],
+    "strengths": ["1%", "10 mg", "20 mg"],
+    "forms": ["cream", "tablet"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Augmentin",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "aliases": ["Augmentin Duo", "Augmentin 625", "Augmentin 1 g", "Augmentin ES"],
+    "strengths": ["375 mg", "625 mg", "1 g", "457 mg/5 ml", "228 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Amoclan",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "aliases": ["Amoclan Duo"],
+    "strengths": ["625 mg", "1 g", "457 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Curam",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "aliases": ["Curam Duo"],
+    "strengths": ["625 mg", "1 g"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Amoxil",
+    "generic": "Amoxicillin",
+    "aliases": ["Amoxil Capsules", "Amoxil Syrup"],
+    "strengths": ["250 mg", "500 mg", "125 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Amoxicillin",
+    "generic": "Amoxicillin",
+    "aliases": ["Amoxycillin", "Amoxicilin", "Amoxi"],
+    "strengths": ["250 mg", "500 mg", "125 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Zithromax",
+    "generic": "Azithromycin",
+    "aliases": ["Zithromax Suspension"],
+    "strengths": ["250 mg", "500 mg", "200 mg/5 ml"],
+    "forms": ["tablet", "capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Azithromycin",
+    "generic": "Azithromycin",
+    "aliases": ["Azithro", "Azithromycin Tablets", "Azomax"],
+    "strengths": ["250 mg", "500 mg", "200 mg/5 ml"],
+    "forms": ["tablet", "capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Klacid",
+    "generic": "Clarithromycin",
+    "aliases": ["Klacid MR", "Klacid Forte"],
+    "strengths": ["250 mg", "500 mg", "125 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Clarithromycin",
+    "generic": "Clarithromycin",
+    "aliases": ["Clarithro"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Erythromycin",
+    "generic": "Erythromycin",
+    "aliases": ["Erythrocin", "Erythromycin Stearate"],
+    "strengths": ["250 mg", "500 mg", "200 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Ciprofloxacin",
+    "generic": "Ciprofloxacin",
+    "aliases": ["Cipro", "Ciprobay", "Ciprofloxacine"],
+    "strengths": ["250 mg", "500 mg", "750 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Ciprobay",
+    "generic": "Ciprofloxacin",
+    "aliases": ["Ciprobay 500"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Levofloxacin",
+    "generic": "Levofloxacin",
+    "aliases": ["Tavanic", "Levaquin"],
+    "strengths": ["250 mg", "500 mg", "750 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Tavanic",
+    "generic": "Levofloxacin",
+    "aliases": [],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Moxifloxacin",
+    "generic": "Moxifloxacin",
+    "aliases": ["Avelox", "Moxifloxacine"],
+    "strengths": ["400 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Ofloxacin",
+    "generic": "Ofloxacin",
+    "aliases": ["Tarivid"],
+    "strengths": ["200 mg", "400 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Zinnat",
+    "generic": "Cefuroxime",
+    "aliases": ["Cefuroxime", "Zinnat Suspension", "Cefuroxime Axetil"],
+    "strengths": ["125 mg", "250 mg", "500 mg", "125 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Suprax",
+    "generic": "Cefixime",
+    "aliases": ["Cefixime"],
+    "strengths": ["100 mg/5 ml", "200 mg", "400 mg"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Ceclor",
+    "generic": "Cefaclor",
+    "aliases": ["Cefaclor"],
+    "strengths": ["125 mg/5 ml", "250 mg", "500 mg"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Keflex",
+    "generic": "Cefalexin",
+    "aliases": ["Cephalexin", "Cefalexin"],
+    "strengths": ["250 mg", "500 mg", "125 mg/5 ml"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Orelox",
+    "generic": "Cefpodoxime",
+    "aliases": ["Cefpodoxime"],
+    "strengths": ["100 mg", "200 mg"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Rocephin",
+    "generic": "Ceftriaxone",
+    "aliases": ["Ceftriaxone", "Ceftriaxon"],
+    "strengths": ["250 mg", "500 mg", "1 g"],
+    "forms": ["injection"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Vibramycin",
+    "generic": "Doxycycline",
+    "aliases": ["Doxycycline", "Doxycyclin", "Doxy"],
+    "strengths": ["100 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Minocycline",
+    "generic": "Minocycline",
+    "aliases": ["Minocin"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Flagyl",
+    "generic": "Metronidazole",
+    "aliases": ["Flagyl Suspension"],
+    "strengths": ["200 mg", "400 mg", "500 mg", "200 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Metronidazole",
+    "generic": "Metronidazole",
+    "aliases": ["Metrogyl", "Metronidazol"],
+    "strengths": ["200 mg", "400 mg", "500 mg"],
+    "forms": ["tablet", "suspension", "gel"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Tinidazole",
+    "generic": "Tinidazole",
+    "aliases": ["Fasigyn"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Dalacin C",
+    "generic": "Clindamycin",
+    "aliases": ["Clindamycin", "Dalacin"],
+    "strengths": ["150 mg", "300 mg"],
+    "forms": ["capsule", "injection", "cream"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Septrin",
+    "generic": "Co-trimoxazole",
+    "aliases": ["Bactrim", "Co-trimoxazole", "Cotrimoxazole", "Septrin Forte"],
+    "strengths": ["480 mg", "960 mg"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Nitrofurantoin",
+    "generic": "Nitrofurantoin",
+    "aliases": ["Macrobid", "Furadantin"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Monurol",
+    "generic": "Fosfomycin",
+    "aliases": ["Fosfomycin"],
+    "strengths": ["3 g"],
+    "forms": ["sachet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Fucidin",
+    "generic": "Fusidic Acid",
+    "aliases": ["Fucidin Cream", "Fucidin Ointment", "Fusidic Acid"],
+    "strengths": ["2%", "250 mg"],
+    "forms": ["cream", "ointment", "tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Fucicort",
+    "generic": "Fusidic Acid + Betamethasone",
+    "aliases": ["Fucicort Cream"],
+    "strengths": ["2%/0.1%"],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Bactroban",
+    "generic": "Mupirocin",
+    "aliases": ["Mupirocin", "Bactroban Ointment"],
+    "strengths": ["2%"],
+    "forms": ["ointment", "cream"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Penicillin V",
+    "generic": "Phenoxymethylpenicillin",
+    "aliases": ["Ospen", "Penicillin VK"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Floxapen",
+    "generic": "Flucloxacillin",
+    "aliases": ["Flucloxacillin", "Flucloxacilin"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Linezolid",
+    "generic": "Linezolid",
+    "aliases": ["Zyvox"],
+    "strengths": ["600 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Diflucan",
+    "generic": "Fluconazole",
+    "aliases": ["Fluconazole", "Fluconazol"],
+    "strengths": ["50 mg", "150 mg", "200 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Canesten",
+    "generic": "Clotrimazole",
+    "aliases": ["Clotrimazole", "Canesten Cream", "Canesten Pessary", "Canesten Oral"],
+    "strengths": ["1%", "100 mg", "500 mg"],
+    "forms": ["cream", "suppository"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Daktarin",
+    "generic": "Miconazole",
+    "aliases": ["Daktarin Gel", "Daktarin Cream", "Miconazole"],
+    "strengths": ["2%"],
+    "forms": ["cream", "gel", "powder"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Daktacort",
+    "generic": "Miconazole + Hydrocortisone",
+    "aliases": ["Daktacort Cream"],
+    "strengths": ["2%/1%"],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Lamisil",
+    "generic": "Terbinafine",
+    "aliases": ["Terbinafine", "Lamisil Cream"],
+    "strengths": ["250 mg", "1%"],
+    "forms": ["tablet", "cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Nizoral",
+    "generic": "Ketoconazole",
+    "aliases": ["Ketoconazole", "Nizoral Shampoo", "Nizoral Cream"],
+    "strengths": ["2%", "200 mg"],
+    "forms": ["cream", "tablet", "solution"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Mycostatin",
+    "generic": "Nystatin",
+    "aliases": ["Nystatin", "Nystatin Drops"],
+    "strengths": ["100,000 IU/ml"],
+    "forms": ["suspension", "drops"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Sporanox",
+    "generic": "Itraconazole",
+    "aliases": ["Itraconazole"],
+    "strengths": ["100 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Zovirax",
+    "generic": "Acyclovir",
+    "aliases": ["Acyclovir", "Aciclovir", "Zovirax Cream"],
+    "strengths": ["200 mg", "400 mg", "800 mg", "5%"],
+    "forms": ["tablet", "cream"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Valtrex",
+    "generic": "Valaciclovir",
+    "aliases": ["Valacyclovir", "Valaciclovir"],
+    "strengths": ["500 mg", "1 g"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Tamiflu",
+    "generic": "Oseltamivir",
+    "aliases": ["Oseltamivir"],
+    "strengths": ["30 mg", "45 mg", "75 mg"],
+    "forms": ["capsule", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Zentel",
+    "generic": "Albendazole",
+    "aliases": ["Albendazole"],
+    "strengths": ["200 mg", "400 mg", "100 mg/5 ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Vermox",
+    "generic": "Mebendazole",
+    "aliases": ["Mebendazole"],
+    "strengths": ["100 mg", "500 mg"],
+    "forms": ["tablet", "suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Stromectol",
+    "generic": "Ivermectin",
+    "aliases": ["Ivermectin"],
+    "strengths": ["3 mg", "6 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Plaquenil",
+    "generic": "Hydroxychloroquine",
+    "aliases": ["Hydroxychloroquine"],
+    "strengths": ["200 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Malarone",
+    "generic": "Atovaquone + Proguanil",
+    "aliases": [],
+    "strengths": ["250 mg/100 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Coartem",
+    "generic": "Artemether + Lumefantrine",
+    "aliases": [],
+    "strengths": ["20 mg/120 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Nexium",
+    "generic": "Esomeprazole",
+    "aliases": ["Nexium Mups", "Nexium 20", "Nexium 40"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Esomeprazole",
+    "generic": "Esomeprazole",
+    "aliases": ["Esomeprazole Magnesium"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Losec",
+    "generic": "Omeprazole",
+    "aliases": ["Losec MUPS"],
+    "strengths": ["10 mg", "20 mg", "40 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Omeprazole",
+    "generic": "Omeprazole",
+    "aliases": ["Omeprazol", "Omeprazole Capsules", "Omez", "Omeprazole Gastro-resistant"],
+    "strengths": ["10 mg", "20 mg", "40 mg"],
+    "forms": ["capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Pantoloc",
+    "generic": "Pantoprazole",
+    "aliases": ["Controloc", "Pantoprazole", "Protonix"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Lansoprazole",
+    "generic": "Lansoprazole",
+    "aliases": ["Zoton", "Lanzor", "Prevacid"],
+    "strengths": ["15 mg", "30 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Pariet",
+    "generic": "Rabeprazole",
+    "aliases": ["Rabeprazole"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Ranitidine",
+    "generic": "Ranitidine",
+    "aliases": ["Zantac", "Ranitidine Tablets"],
+    "strengths": ["150 mg", "300 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Famotidine",
+    "generic": "Famotidine",
+    "aliases": ["Pepcid", "Famotidine Tablets"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Gaviscon",
+    "generic": "Sodium Alginate + Sodium Bicarbonate",
+    "aliases": [
+      "Gaviscon Advance",
+      "Gaviscon Double Action",
+      "Gaviscon Liquid",
+      "Gaviscon Chewable"
+    ],
+    "strengths": ["500 mg/267 mg", "250 mg"],
+    "forms": ["syrup", "tablet", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Rennie",
+    "generic": "Calcium Carbonate + Magnesium Carbonate",
+    "aliases": ["Rennie Tablets", "Rennie Spearmint"],
+    "strengths": ["680 mg/80 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Maalox",
+    "generic": "Aluminium Hydroxide + Magnesium Hydroxide",
+    "aliases": ["Maalox Plus"],
+    "strengths": [],
+    "forms": ["suspension", "tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Mylanta",
+    "generic": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone",
+    "aliases": ["Mylanta Liquid"],
+    "strengths": [],
+    "forms": ["suspension", "tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Eno",
+    "generic": "Sodium Bicarbonate + Citric Acid",
+    "aliases": ["Eno Fruit Salt", "Eno Lemon"],
+    "strengths": ["5 g"],
+    "forms": ["powder", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Buscopan",
+    "generic": "Hyoscine Butylbromide",
+    "aliases": ["Hyoscine", "Buscopan Plus", "Buscopan Compositum", "Buscopan Tablets"],
+    "strengths": ["10 mg", "20 mg/ml"],
+    "forms": ["tablet", "injection", "suppository"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Colospa",
+    "generic": "Mebeverine",
+    "aliases": ["Mebeverine", "Duspatalin", "Colofac"],
+    "strengths": ["135 mg", "200 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Spasmo-Cibalgin",
+    "generic": "Propyphenazone + Drotaverine",
+    "aliases": ["Spasmo Cibalgin"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "No-Spa",
+    "generic": "Drotaverine",
+    "aliases": ["Drotaverine", "No Spa", "Nospa"],
+    "strengths": ["40 mg", "80 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Imodium",
+    "generic": "Loperamide",
+    "aliases": ["Imodium Instant", "Imodium Plus", "Imodium Capsules"],
+    "strengths": ["2 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Loperamide",
+    "generic": "Loperamide",
+    "aliases": ["Loperamide HCl"],
+    "strengths": ["2 mg"],
+    "forms": ["capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Smecta",
+    "generic": "Diosmectite",
+    "aliases": ["Diosmectite"],
+    "strengths": ["3 g"],
+    "forms": ["sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Motilium",
+    "generic": "Domperidone",
+    "aliases": ["Domperidone", "Motilium Instant", "Motilium Suspension"],
+    "strengths": ["10 mg", "1 mg/ml"],
+    "forms": ["tablet", "suspension"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Primperan",
+    "generic": "Metoclopramide",
+    "aliases": ["Metoclopramide", "Plasil", "Maxolon"],
+    "strengths": ["10 mg"],
+    "forms": ["tablet", "injection", "syrup"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Zofran",
+    "generic": "Ondansetron",
+    "aliases": ["Ondansetron", "Zofran Zydis"],
+    "strengths": ["4 mg", "8 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Dramamine",
+    "generic": "Dimenhydrinate",
+    "aliases": ["Dimenhydrinate", "Gravol", "Avomine"],
+    "strengths": ["50 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Stemetil",
+    "generic": "Prochlorperazine",
+    "aliases": ["Prochlorperazine"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Duphalac",
+    "generic": "Lactulose",
+    "aliases": ["Lactulose", "Laevolac"],
+    "strengths": ["10 g/15 ml", "3.35 g/5 ml"],
+    "forms": ["syrup", "solution"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Dulcolax",
+    "generic": "Bisacodyl",
+    "aliases": ["Bisacodyl", "Dulcolax Tablets", "Dulcolax Suppositories"],
+    "strengths": ["5 mg", "10 mg"],
+    "forms": ["tablet", "suppository"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Senokot",
+    "generic": "Senna",
+    "aliases": ["Senna", "Senokot Tablets", "Sennosides"],
+    "strengths": ["7.5 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Movicol",
+    "generic": "Macrogol",
+    "aliases": ["Macrogol", "Forlax", "Movicol Sachets"],
+    "strengths": ["13.8 g", "10 g"],
+    "forms": ["sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Microlax",
+    "generic": "Sodium Citrate + Sodium Lauryl Sulfoacetate",
+    "aliases": ["Microlax Enema"],
+    "strengths": ["5 ml"],
+    "forms": ["solution"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Fybogel",
+    "generic": "Ispaghula Husk",
+    "aliases": ["Ispaghula", "Fybogel Orange", "Psyllium"],
+    "strengths": ["3.5 g"],
+    "forms": ["sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Normacol",
+    "generic": "Sterculia",
+    "aliases": [],
+    "strengths": [],
+    "forms": ["powder"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Enterogermina",
+    "generic": "Bacillus Clausii",
+    "aliases": ["Enterogermina Vials", "Enterogermina Capsules"],
+    "strengths": ["2 billion/5 ml"],
+    "forms": ["solution", "capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Lacteol",
+    "generic": "Lactobacillus",
+    "aliases": [],
+    "strengths": ["340 mg"],
+    "forms": ["capsule", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Florastor",
+    "generic": "Saccharomyces Boulardii",
+    "aliases": [],
+    "strengths": ["250 mg"],
+    "forms": ["capsule", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Probiotic",
+    "generic": "Probiotic",
+    "aliases": ["Probiotics", "Culturelle", "Bioflor"],
+    "strengths": [],
+    "forms": ["capsule", "sachet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Dioralyte",
+    "generic": "Oral Rehydration Salts",
+    "aliases": ["ORS", "Oral Rehydration Salts", "Dioralyte Sachets"],
+    "strengths": [],
+    "forms": ["sachet", "powder"],
+    "category": "Digestive"
+  },
+  {
+    "name": "ORS",
+    "generic": "Oral Rehydration Salts",
+    "aliases": ["Oral Rehydration Salt", "Rehydration Salts"],
+    "strengths": [],
+    "forms": ["sachet", "powder"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Pedialyte",
+    "generic": "Oral Rehydration Solution",
+    "aliases": ["Pedialyte Solution"],
+    "strengths": [],
+    "forms": ["solution"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Hydralyte",
+    "generic": "Oral Rehydration Salts",
+    "aliases": ["Hydralyte Electrolyte"],
+    "strengths": [],
+    "forms": ["sachet", "solution"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Creon",
+    "generic": "Pancreatin",
+    "aliases": ["Creon 10000", "Creon 25000"],
+    "strengths": ["10000 IU", "25000 IU"],
+    "forms": ["capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Ursofalk",
+    "generic": "Ursodeoxycholic Acid",
+    "aliases": ["Ursodeoxycholic Acid", "Urso"],
+    "strengths": ["250 mg", "300 mg"],
+    "forms": ["capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Sucralfate",
+    "generic": "Sucralfate",
+    "aliases": ["Antepsin", "Sucralfate Suspension"],
+    "strengths": ["1 g"],
+    "forms": ["tablet", "suspension"],
+    "category": "Digestive"
+  },
+  {
+    "name": "De-Nol",
+    "generic": "Bismuth Subcitrate",
+    "aliases": ["De Nol", "Denol"],
+    "strengths": ["120 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Simethicone",
+    "generic": "Simethicone",
+    "aliases": ["Sab Simplex", "Espumisan", "Gas-X", "Simeticone"],
+    "strengths": ["40 mg", "80 mg", "40 mg/ml"],
+    "forms": ["tablet", "drops", "capsule"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Infacol",
+    "generic": "Simethicone",
+    "aliases": [],
+    "strengths": ["40 mg/ml"],
+    "forms": ["drops"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Colief",
+    "generic": "Lactase",
+    "aliases": [],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Mylicon",
+    "generic": "Simethicone",
+    "aliases": ["Mylicon Drops"],
+    "strengths": ["40 mg/0.6 ml"],
+    "forms": ["drops"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Proctosedyl",
+    "generic": "Hydrocortisone + Cinchocaine",
+    "aliases": ["Proctosedyl Ointment", "Proctosedyl Suppositories"],
+    "strengths": [],
+    "forms": ["ointment", "suppository"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Anusol",
+    "generic": "Zinc Oxide + Bismuth",
+    "aliases": ["Anusol Cream", "Anusol Suppositories"],
+    "strengths": [],
+    "forms": ["cream", "suppository"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Daflon",
+    "generic": "Diosmin + Hesperidin",
+    "aliases": ["Diosmin", "Daflon 500"],
+    "strengths": ["500 mg", "1000 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Venoruton",
+    "generic": "Rutosides",
+    "aliases": ["Venoruton Gel", "Venoruton Capsules"],
+    "strengths": ["300 mg", "500 mg"],
+    "forms": ["capsule", "gel", "tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Vitamin D3",
+    "generic": "Cholecalciferol",
+    "aliases": ["Vitamin D", "Vit D3", "Vitamin D 3", "Cholecalciferol", "D3"],
+    "strengths": ["1000 IU", "2000 IU", "5000 IU", "10000 IU", "50000 IU"],
+    "forms": ["tablet", "capsule", "drops"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vigantol",
+    "generic": "Cholecalciferol",
+    "aliases": ["Vigantol Oil", "Vigantol Drops"],
+    "strengths": ["20000 IU/ml", "500 IU/drop"],
+    "forms": ["drops"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "D-Cure",
+    "generic": "Cholecalciferol",
+    "aliases": ["D Cure", "Dcure"],
+    "strengths": ["25000 IU"],
+    "forms": ["solution", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Devarol-S",
+    "generic": "Cholecalciferol",
+    "aliases": ["Devarol", "Devarol S"],
+    "strengths": ["200000 IU"],
+    "forms": ["injection", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Fultium",
+    "generic": "Cholecalciferol",
+    "aliases": ["Fultium D3"],
+    "strengths": ["800 IU", "3200 IU"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Adcal-D3",
+    "generic": "Calcium + Vitamin D3",
+    "aliases": ["Adcal D3", "Adcal"],
+    "strengths": ["1500 mg/400 IU"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin C",
+    "generic": "Ascorbic Acid",
+    "aliases": ["Vit C", "Vitamin C 1000", "Ascorbic Acid"],
+    "strengths": ["500 mg", "1000 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Redoxon",
+    "generic": "Vitamin C + Zinc",
+    "aliases": ["Redoxon Triple Action", "Redoxon Effervescent"],
+    "strengths": ["1000 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Cebion",
+    "generic": "Vitamin C",
+    "aliases": ["Cebion Effervescent"],
+    "strengths": ["500 mg", "1000 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Celin",
+    "generic": "Vitamin C",
+    "aliases": ["Celin Tablets"],
+    "strengths": ["100 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin B12",
+    "generic": "Cyanocobalamin",
+    "aliases": ["B12", "Vit B12", "Cobalamin", "Methylcobalamin", "Cyanocobalamin"],
+    "strengths": ["500 mcg", "1000 mcg", "5000 mcg"],
+    "forms": ["tablet", "injection"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin B Complex",
+    "generic": "B Vitamins",
+    "aliases": ["B Complex", "Vit B Complex", "Vitamin B-Complex"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin E",
+    "generic": "Tocopherol",
+    "aliases": ["Vit E", "Vitamin E 400", "Alpha Tocopherol"],
+    "strengths": ["200 IU", "400 IU", "1000 IU"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin A",
+    "generic": "Retinol",
+    "aliases": ["Vit A"],
+    "strengths": ["5000 IU", "10000 IU"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin K2",
+    "generic": "Menaquinone",
+    "aliases": ["K2", "Vit K2", "MK-7"],
+    "strengths": ["100 mcg", "180 mcg"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Omega-3",
+    "generic": "Omega-3 Fatty Acids",
+    "aliases": [
+      "Omega 3",
+      "Omega3",
+      "Fish Oil",
+      "Omega-3 Fish Oil",
+      "Cod Liver Oil",
+      "Omacor",
+      "Lovaza"
+    ],
+    "strengths": ["1000 mg", "1200 mg"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Seven Seas",
+    "generic": "Cod Liver Oil",
+    "aliases": ["Seven Seas Cod Liver Oil", "Seven Seas Omega-3"],
+    "strengths": [],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Calcium",
+    "generic": "Calcium Carbonate",
+    "aliases": [
+      "Calcium 600",
+      "Calcium Carbonate",
+      "Calcium Citrate",
+      "Caltrate",
+      "Calcimax",
+      "Os-Cal"
+    ],
+    "strengths": ["500 mg", "600 mg", "1000 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Magnesium",
+    "generic": "Magnesium",
+    "aliases": [
+      "Magnesium B6",
+      "Magne B6",
+      "Magnesium Oxide",
+      "Magnesium Citrate",
+      "Magnesium Glycinate"
+    ],
+    "strengths": ["100 mg", "200 mg", "400 mg"],
+    "forms": ["tablet", "capsule", "solution"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Iron",
+    "generic": "Ferrous Sulfate",
+    "aliases": [
+      "Ferrous Sulphate",
+      "Ferrograd",
+      "Fefol",
+      "Maltofer",
+      "Ferro-Folgamma",
+      "Ferrous Fumarate",
+      "Iron Tablets",
+      "Ferosac"
+    ],
+    "strengths": ["100 mg", "200 mg", "325 mg"],
+    "forms": ["tablet", "capsule", "syrup"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Folic Acid",
+    "generic": "Folic Acid",
+    "aliases": ["Folic", "Folate", "Folvite"],
+    "strengths": ["400 mcg", "5 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Zinc",
+    "generic": "Zinc Sulfate",
+    "aliases": ["Zinc Sulphate", "Zinc Gluconate", "Zincat", "Zinc 50"],
+    "strengths": ["20 mg", "50 mg", "220 mg"],
+    "forms": ["tablet", "capsule", "syrup"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Centrum",
+    "generic": "Multivitamin",
+    "aliases": [
+      "Centrum Adults",
+      "Centrum Silver",
+      "Centrum Men",
+      "Centrum Women",
+      "Centrum Advance"
+    ],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Pharmaton",
+    "generic": "Multivitamin",
+    "aliases": ["Pharmaton Vitality", "Pharmaton Capsules"],
+    "strengths": [],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Supradyn",
+    "generic": "Multivitamin",
+    "aliases": ["Supradyn Effervescent", "Supradyn Energy"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Berocca",
+    "generic": "Multivitamin",
+    "aliases": ["Berocca Performance", "Berocca Boost"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Multivitamin",
+    "generic": "Multivitamin",
+    "aliases": ["Multi Vitamin", "Multivitamins", "Multi-Vitamin", "Vitamin Multi"],
+    "strengths": [],
+    "forms": ["tablet", "capsule", "syrup"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Biotin",
+    "generic": "Biotin",
+    "aliases": ["Biotin 5000", "Vitamin B7", "Hair Skin Nails"],
+    "strengths": ["5000 mcg", "10000 mcg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Coenzyme Q10",
+    "generic": "Ubiquinone",
+    "aliases": ["CoQ10", "Co Q10", "Q10", "Ubiquinol"],
+    "strengths": ["30 mg", "100 mg", "200 mg"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Glucosamine",
+    "generic": "Glucosamine Sulfate",
+    "aliases": ["Glucosamine Chondroitin", "Cosamin", "Osteo Bi-Flex", "Flexiseq"],
+    "strengths": ["500 mg", "1500 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Melatonin",
+    "generic": "Melatonin",
+    "aliases": ["Circadin", "Melatonin Tablets"],
+    "strengths": ["2 mg", "3 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Collagen",
+    "generic": "Collagen Peptides",
+    "aliases": ["Collagen Powder", "Hydrolyzed Collagen"],
+    "strengths": [],
+    "forms": ["powder", "tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Evening Primrose Oil",
+    "generic": "Evening Primrose",
+    "aliases": ["EPO", "Efamol"],
+    "strengths": ["500 mg", "1000 mg"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Lutein",
+    "generic": "Lutein",
+    "aliases": ["Lutein Eye", "Lutein 20"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Spirulina",
+    "generic": "Spirulina",
+    "aliases": [],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Probiotics Kids",
+    "generic": "Probiotic",
+    "aliases": ["Biogaia", "BioGaia Drops"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Glucophage",
+    "generic": "Metformin",
+    "aliases": ["Glucophage XR", "Glucophage 500", "Glucophage 850"],
+    "strengths": ["500 mg", "850 mg", "1000 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Metformin",
+    "generic": "Metformin",
+    "aliases": ["Metformin HCl", "Metformin Hydrochloride", "Metformine", "Cidophage"],
+    "strengths": ["500 mg", "850 mg", "1000 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Diamicron",
+    "generic": "Gliclazide",
+    "aliases": ["Diamicron MR", "Gliclazide"],
+    "strengths": ["30 mg", "60 mg", "80 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Amaryl",
+    "generic": "Glimepiride",
+    "aliases": ["Glimepiride", "Amaryl M"],
+    "strengths": ["1 mg", "2 mg", "3 mg", "4 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Glibenclamide",
+    "generic": "Glibenclamide",
+    "aliases": ["Daonil", "Euglucon", "Glyburide"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Januvia",
+    "generic": "Sitagliptin",
+    "aliases": ["Sitagliptin", "Janumet"],
+    "strengths": ["25 mg", "50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Galvus",
+    "generic": "Vildagliptin",
+    "aliases": ["Vildagliptin", "Galvus Met"],
+    "strengths": ["50 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Jardiance",
+    "generic": "Empagliflozin",
+    "aliases": ["Empagliflozin", "Synjardy"],
+    "strengths": ["10 mg", "25 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Forxiga",
+    "generic": "Dapagliflozin",
+    "aliases": ["Dapagliflozin", "Xigduo"],
+    "strengths": ["5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Trajenta",
+    "generic": "Linagliptin",
+    "aliases": ["Linagliptin"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Lantus",
+    "generic": "Insulin Glargine",
+    "aliases": ["Insulin Glargine", "Lantus SoloStar", "Toujeo", "Basaglar"],
+    "strengths": ["100 U/ml"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Levemir",
+    "generic": "Insulin Detemir",
+    "aliases": ["Insulin Detemir"],
+    "strengths": ["100 U/ml"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "NovoRapid",
+    "generic": "Insulin Aspart",
+    "aliases": ["Insulin Aspart", "Novolog"],
+    "strengths": ["100 U/ml"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Mixtard",
+    "generic": "Insulin Human",
+    "aliases": ["Insulin Mixtard", "Humulin", "Actrapid", "Insulatard"],
+    "strengths": ["100 IU/ml"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Ozempic",
+    "generic": "Semaglutide",
+    "aliases": ["Semaglutide", "Wegovy"],
+    "strengths": ["0.25 mg", "0.5 mg", "1 mg"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Victoza",
+    "generic": "Liraglutide",
+    "aliases": ["Liraglutide", "Saxenda"],
+    "strengths": ["6 mg/ml"],
+    "forms": ["injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Norvasc",
+    "generic": "Amlodipine",
+    "aliases": ["Amlodipine", "Amlor", "Amlodipine Besylate"],
+    "strengths": ["5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Zestril",
+    "generic": "Lisinopril",
+    "aliases": ["Lisinopril", "Prinivil"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Renitec",
+    "generic": "Enalapril",
+    "aliases": ["Enalapril", "Vasotec"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tritace",
+    "generic": "Ramipril",
+    "aliases": ["Ramipril"],
+    "strengths": ["2.5 mg", "5 mg", "10 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Coversyl",
+    "generic": "Perindopril",
+    "aliases": ["Perindopril", "Prestarium"],
+    "strengths": ["2.5 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Concor",
+    "generic": "Bisoprolol",
+    "aliases": ["Bisoprolol", "Bisoprolol Fumarate", "Concor Cor"],
+    "strengths": ["2.5 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tenormin",
+    "generic": "Atenolol",
+    "aliases": ["Atenolol"],
+    "strengths": ["25 mg", "50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Betaloc",
+    "generic": "Metoprolol",
+    "aliases": ["Metoprolol", "Lopressor", "Betaloc ZOK"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Carvedilol",
+    "generic": "Carvedilol",
+    "aliases": ["Dilatrend", "Coreg"],
+    "strengths": ["6.25 mg", "12.5 mg", "25 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Cozaar",
+    "generic": "Losartan",
+    "aliases": ["Losartan", "Losartan Potassium", "Cozaar Plus"],
+    "strengths": ["25 mg", "50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Diovan",
+    "generic": "Valsartan",
+    "aliases": ["Valsartan", "Co-Diovan"],
+    "strengths": ["40 mg", "80 mg", "160 mg", "320 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Atacand",
+    "generic": "Candesartan",
+    "aliases": ["Candesartan"],
+    "strengths": ["8 mg", "16 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Aprovel",
+    "generic": "Irbesartan",
+    "aliases": ["Irbesartan", "CoAprovel"],
+    "strengths": ["150 mg", "300 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Micardis",
+    "generic": "Telmisartan",
+    "aliases": ["Telmisartan", "Micardis Plus"],
+    "strengths": ["40 mg", "80 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Hydrochlorothiazide",
+    "generic": "Hydrochlorothiazide",
+    "aliases": ["HCTZ", "Hydrochlorothiazid"],
+    "strengths": ["12.5 mg", "25 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Lasix",
+    "generic": "Furosemide",
+    "aliases": ["Furosemide", "Frusemide"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet", "injection"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Aldactone",
+    "generic": "Spironolactone",
+    "aliases": ["Spironolactone"],
+    "strengths": ["25 mg", "50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Lipitor",
+    "generic": "Atorvastatin",
+    "aliases": ["Atorvastatin", "Atorvastatin Calcium", "Atorva", "Torvast"],
+    "strengths": ["10 mg", "20 mg", "40 mg", "80 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Crestor",
+    "generic": "Rosuvastatin",
+    "aliases": ["Rosuvastatin", "Rosuvastatin Calcium", "Rosuvas"],
+    "strengths": ["5 mg", "10 mg", "20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Zocor",
+    "generic": "Simvastatin",
+    "aliases": ["Simvastatin", "Simvastatine"],
+    "strengths": ["10 mg", "20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Ezetrol",
+    "generic": "Ezetimibe",
+    "aliases": ["Ezetimibe", "Zetia", "Ezetimibe Tablets"],
+    "strengths": ["10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Fenofibrate",
+    "generic": "Fenofibrate",
+    "aliases": ["Lipanthyl", "Tricor", "Fenofibrate Capsules"],
+    "strengths": ["145 mg", "160 mg", "200 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Plavix",
+    "generic": "Clopidogrel",
+    "aliases": ["Clopidogrel", "Clopidogrel Bisulfate", "Plavix 75"],
+    "strengths": ["75 mg", "300 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Warfarin",
+    "generic": "Warfarin",
+    "aliases": ["Marevan", "Coumadin", "Warfarin Sodium"],
+    "strengths": ["1 mg", "3 mg", "5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Xarelto",
+    "generic": "Rivaroxaban",
+    "aliases": ["Rivaroxaban"],
+    "strengths": ["10 mg", "15 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Eliquis",
+    "generic": "Apixaban",
+    "aliases": ["Apixaban"],
+    "strengths": ["2.5 mg", "5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Euthyrox",
+    "generic": "Levothyroxine",
+    "aliases": ["Levothyroxine", "Eltroxin", "L-Thyroxine", "Synthroid", "Thyroxine"],
+    "strengths": ["25 mcg", "50 mcg", "75 mcg", "100 mcg", "125 mcg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Carbimazole",
+    "generic": "Carbimazole",
+    "aliases": ["Neo-Mercazole"],
+    "strengths": ["5 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Zyloprim",
+    "generic": "Allopurinol",
+    "aliases": ["Allopurinol", "Zyloric"],
+    "strengths": ["100 mg", "300 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Colchicine",
+    "generic": "Colchicine",
+    "aliases": ["Colcrys", "Colchicin"],
+    "strengths": ["0.5 mg", "1 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Fosamax",
+    "generic": "Alendronate",
+    "aliases": ["Alendronate", "Alendronic Acid", "Fosamax Plus"],
+    "strengths": ["70 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Zoloft",
+    "generic": "Sertraline",
+    "aliases": ["Sertraline", "Sertraline HCl"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Cipralex",
+    "generic": "Escitalopram",
+    "aliases": ["Escitalopram", "Lexapro"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Prozac",
+    "generic": "Fluoxetine",
+    "aliases": ["Fluoxetine", "Fluox"],
+    "strengths": ["20 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Seroxat",
+    "generic": "Paroxetine",
+    "aliases": ["Paroxetine", "Paxil"],
+    "strengths": ["20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Xanax",
+    "generic": "Alprazolam",
+    "aliases": ["Alprazolam"],
+    "strengths": ["0.25 mg", "0.5 mg", "1 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Valium",
+    "generic": "Diazepam",
+    "aliases": ["Diazepam"],
+    "strengths": ["2 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Ativan",
+    "generic": "Lorazepam",
+    "aliases": ["Lorazepam"],
+    "strengths": ["1 mg", "2 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Stilnox",
+    "generic": "Zolpidem",
+    "aliases": ["Zolpidem", "Ambien"],
+    "strengths": ["10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Seroquel",
+    "generic": "Quetiapine",
+    "aliases": ["Quetiapine"],
+    "strengths": ["25 mg", "100 mg", "200 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tryptizol",
+    "generic": "Amitriptyline",
+    "aliases": ["Amitriptyline", "Elavil"],
+    "strengths": ["10 mg", "25 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Neurontin",
+    "generic": "Gabapentin",
+    "aliases": ["Gabapentin", "Gabapentine"],
+    "strengths": ["100 mg", "300 mg", "400 mg", "600 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Lyrica",
+    "generic": "Pregabalin",
+    "aliases": ["Pregabalin", "Pregabalin Capsules"],
+    "strengths": ["25 mg", "75 mg", "150 mg", "300 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tegretol",
+    "generic": "Carbamazepine",
+    "aliases": ["Carbamazepine", "Tegretol CR"],
+    "strengths": ["200 mg", "400 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Epilim",
+    "generic": "Sodium Valproate",
+    "aliases": ["Valproate", "Depakine", "Sodium Valproate"],
+    "strengths": ["200 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Imigran",
+    "generic": "Sumatriptan",
+    "aliases": ["Sumatriptan", "Imitrex"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Maxalt",
+    "generic": "Rizatriptan",
+    "aliases": ["Rizatriptan", "Maxalt Melt"],
+    "strengths": ["5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Inderal",
+    "generic": "Propranolol",
+    "aliases": ["Propranolol", "Propranolol HCl"],
+    "strengths": ["10 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Betaserc",
+    "generic": "Betahistine",
+    "aliases": ["Betahistine", "Betahistine Dihydrochloride"],
+    "strengths": ["8 mg", "16 mg", "24 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Stugeron",
+    "generic": "Cinnarizine",
+    "aliases": ["Cinnarizine"],
+    "strengths": ["25 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Sibelium",
+    "generic": "Flunarizine",
+    "aliases": ["Flunarizine"],
+    "strengths": ["5 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Flomax",
+    "generic": "Tamsulosin",
+    "aliases": ["Tamsulosin", "Omnic", "Tamsulosin HCl"],
+    "strengths": ["0.4 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Proscar",
+    "generic": "Finasteride",
+    "aliases": ["Finasteride", "Propecia"],
+    "strengths": ["1 mg", "5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Viagra",
+    "generic": "Sildenafil",
+    "aliases": ["Sildenafil", "Sildenafil Citrate"],
+    "strengths": ["25 mg", "50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Cialis",
+    "generic": "Tadalafil",
+    "aliases": ["Tadalafil"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Yasmin",
+    "generic": "Drospirenone + Ethinylestradiol",
+    "aliases": ["Yasminelle", "Yaz"],
+    "strengths": ["3 mg/0.03 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Diane-35",
+    "generic": "Cyproterone + Ethinylestradiol",
+    "aliases": ["Diane 35"],
+    "strengths": ["2 mg/0.035 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Microgynon",
+    "generic": "Levonorgestrel + Ethinylestradiol",
+    "aliases": ["Microgynon 30"],
+    "strengths": ["150 mcg/30 mcg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Marvelon",
+    "generic": "Desogestrel + Ethinylestradiol",
+    "aliases": [],
+    "strengths": ["150 mcg/30 mcg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Postinor",
+    "generic": "Levonorgestrel",
+    "aliases": ["Postinor-2", "Levonorgestrel", "Norlevo", "Plan B"],
+    "strengths": ["1.5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Duphaston",
+    "generic": "Dydrogesterone",
+    "aliases": ["Dydrogesterone"],
+    "strengths": ["10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Utrogestan",
+    "generic": "Progesterone",
+    "aliases": ["Progesterone"],
+    "strengths": ["100 mg", "200 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Primolut-N",
+    "generic": "Norethisterone",
+    "aliases": ["Norethisterone", "Primolut N"],
+    "strengths": ["5 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Clomid",
+    "generic": "Clomifene",
+    "aliases": ["Clomiphene", "Clomifene Citrate"],
+    "strengths": ["50 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Feminax",
+    "generic": "Paracetamol + Codeine + Hyoscine",
+    "aliases": ["Feminax Ultra"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Betadine",
+    "generic": "Povidone Iodine",
+    "aliases": [
+      "Betadine Solution",
+      "Betadine Antiseptic",
+      "Betadine Ointment",
+      "Betadine Gargle",
+      "Betadine Surgical Scrub",
+      "Povidone-Iodine"
+    ],
+    "strengths": ["10%", "7.5%", "1%"],
+    "forms": ["solution", "ointment", "spray"],
+    "category": "First aid"
+  },
+  {
+    "name": "Dettol",
+    "generic": "Chloroxylenol",
+    "aliases": ["Dettol Antiseptic", "Dettol Liquid", "Dettol Antiseptic Liquid"],
+    "strengths": ["4.8%"],
+    "forms": ["solution"],
+    "category": "First aid"
+  },
+  {
+    "name": "Savlon",
+    "generic": "Chlorhexidine + Cetrimide",
+    "aliases": ["Savlon Antiseptic", "Savlon Cream", "Savlon Liquid"],
+    "strengths": [],
+    "forms": ["cream", "solution"],
+    "category": "First aid"
+  },
+  {
+    "name": "Bepanthen",
+    "generic": "Dexpanthenol",
+    "aliases": ["Bepanthen Cream", "Bepanthen Ointment", "Bepanthol", "Panthenol"],
+    "strengths": ["5%"],
+    "forms": ["cream", "ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Hydrogen Peroxide",
+    "generic": "Hydrogen Peroxide",
+    "aliases": ["H2O2", "Hydrogen Peroxide Solution"],
+    "strengths": ["3%"],
+    "forms": ["solution"],
+    "category": "First aid"
+  },
+  {
+    "name": "Surgical Spirit",
+    "generic": "Ethanol",
+    "aliases": ["Rubbing Alcohol", "Isopropyl Alcohol", "Methylated Spirit", "Alcohol 70%"],
+    "strengths": ["70%"],
+    "forms": ["solution"],
+    "category": "First aid"
+  },
+  {
+    "name": "Normal Saline",
+    "generic": "Sodium Chloride",
+    "aliases": ["Saline", "Sodium Chloride 0.9%", "NaCl 0.9%", "Saline Solution"],
+    "strengths": ["0.9%"],
+    "forms": ["solution", "injection"],
+    "category": "First aid"
+  },
+  {
+    "name": "Chlorhexidine",
+    "generic": "Chlorhexidine",
+    "aliases": ["Hibiclens", "Corsodyl", "Chlorhexidine Gluconate", "Chlorhexidine Mouthwash"],
+    "strengths": ["0.2%", "2%"],
+    "forms": ["solution", "gel"],
+    "category": "First aid"
+  },
+  {
+    "name": "Elocon",
+    "generic": "Mometasone",
+    "aliases": ["Elocon Cream", "Elocon Ointment", "Mometasone Furoate"],
+    "strengths": ["0.1%"],
+    "forms": ["cream", "ointment", "lotion"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Dermovate",
+    "generic": "Clobetasol",
+    "aliases": ["Clobetasol", "Dermovate Cream", "Dermovate Ointment"],
+    "strengths": ["0.05%"],
+    "forms": ["cream", "ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Betnovate",
+    "generic": "Betamethasone",
+    "aliases": ["Betamethasone", "Betnovate Cream", "Betnovate N", "Betnovate C"],
+    "strengths": ["0.1%"],
+    "forms": ["cream", "ointment", "lotion"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Diprosone",
+    "generic": "Betamethasone Dipropionate",
+    "aliases": ["Diprosone Cream"],
+    "strengths": ["0.05%"],
+    "forms": ["cream", "ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Fusidic Acid Cream",
+    "generic": "Fusidic Acid",
+    "aliases": [],
+    "strengths": ["2%"],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Cetaphil",
+    "generic": "Moisturiser",
+    "aliases": ["Cetaphil Moisturizing Cream", "Cetaphil Lotion", "Cetaphil Cleanser"],
+    "strengths": [],
+    "forms": ["cream", "lotion"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Aquaphor",
+    "generic": "Petrolatum",
+    "aliases": ["Aquaphor Healing Ointment"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Vaseline",
+    "generic": "Petroleum Jelly",
+    "aliases": ["Petroleum Jelly", "Vaseline Petroleum Jelly", "Petrolatum"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Sudocrem",
+    "generic": "Zinc Oxide",
+    "aliases": ["Sudocrem Antiseptic Healing Cream"],
+    "strengths": [],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Zinc Oxide Cream",
+    "generic": "Zinc Oxide",
+    "aliases": ["Zinc Cream", "Zinc and Castor Oil"],
+    "strengths": [],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Calamine",
+    "generic": "Calamine",
+    "aliases": ["Calamine Lotion", "Calamine Cream"],
+    "strengths": [],
+    "forms": ["lotion", "cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Aloe Vera Gel",
+    "generic": "Aloe Vera",
+    "aliases": ["Aloe Vera", "Aloe Gel", "Aloe Vera 99%"],
+    "strengths": [],
+    "forms": ["gel"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Bio-Oil",
+    "generic": "Skincare Oil",
+    "aliases": ["Bio Oil", "BioOil"],
+    "strengths": [],
+    "forms": ["solution"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Differin",
+    "generic": "Adapalene",
+    "aliases": ["Adapalene", "Differin Gel"],
+    "strengths": ["0.1%", "0.3%"],
+    "forms": ["gel", "cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Duac",
+    "generic": "Clindamycin + Benzoyl Peroxide",
+    "aliases": ["Duac Gel"],
+    "strengths": ["1%/5%"],
+    "forms": ["gel"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Benzac",
+    "generic": "Benzoyl Peroxide",
+    "aliases": ["Benzoyl Peroxide", "Benzac AC", "Panoxyl"],
+    "strengths": ["2.5%", "5%", "10%"],
+    "forms": ["gel"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Roaccutane",
+    "generic": "Isotretinoin",
+    "aliases": ["Isotretinoin", "Acnotin", "Isotane"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["capsule"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Contractubex",
+    "generic": "Onion Extract + Heparin",
+    "aliases": ["Contractubex Gel"],
+    "strengths": [],
+    "forms": ["gel"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Mebo",
+    "generic": "Beta-Sitosterol",
+    "aliases": ["Mebo Ointment"],
+    "strengths": ["0.25%"],
+    "forms": ["ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Fucithalmic",
+    "generic": "Fusidic Acid",
+    "aliases": ["Fucithalmic Eye Drops"],
+    "strengths": ["1%"],
+    "forms": ["drops"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Systane",
+    "generic": "Polyethylene Glycol + Propylene Glycol",
+    "aliases": ["Systane Ultra", "Systane Balance", "Systane Eye Drops"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Hylo-Comod",
+    "generic": "Sodium Hyaluronate",
+    "aliases": ["Hylo Comod", "Hylo-Forte", "Hylo Gel", "Hyaluronic Acid Eye Drops"],
+    "strengths": ["0.1%", "0.2%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Tears Naturale",
+    "generic": "Hypromellose + Dextran",
+    "aliases": ["Tears Naturale II", "Tears Naturale Free"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Refresh Tears",
+    "generic": "Carboxymethylcellulose",
+    "aliases": ["Refresh", "Refresh Plus", "Optive"],
+    "strengths": ["0.5%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Visine",
+    "generic": "Tetrahydrozoline",
+    "aliases": ["Visine Eye Drops", "Visine Original"],
+    "strengths": ["0.05%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Tobradex",
+    "generic": "Tobramycin + Dexamethasone",
+    "aliases": ["Tobradex Eye Drops", "Tobradex Ointment"],
+    "strengths": ["0.3%/0.1%"],
+    "forms": ["drops", "ointment"],
+    "category": "Other"
+  },
+  {
+    "name": "Tobrex",
+    "generic": "Tobramycin",
+    "aliases": ["Tobrex Eye Drops", "Tobramycin"],
+    "strengths": ["0.3%"],
+    "forms": ["drops", "ointment"],
+    "category": "Other"
+  },
+  {
+    "name": "Maxitrol",
+    "generic": "Neomycin + Polymyxin + Dexamethasone",
+    "aliases": ["Maxitrol Eye Drops"],
+    "strengths": [],
+    "forms": ["drops", "ointment"],
+    "category": "Other"
+  },
+  {
+    "name": "Ciloxan",
+    "generic": "Ciprofloxacin",
+    "aliases": ["Ciloxan Eye Drops"],
+    "strengths": ["0.3%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Vigamox",
+    "generic": "Moxifloxacin",
+    "aliases": ["Vigamox Eye Drops"],
+    "strengths": ["0.5%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Cosopt",
+    "generic": "Dorzolamide + Timolol",
+    "aliases": ["Cosopt Eye Drops"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Xalatan",
+    "generic": "Latanoprost",
+    "aliases": ["Latanoprost"],
+    "strengths": ["0.005%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Otosporin",
+    "generic": "Neomycin + Polymyxin + Hydrocortisone",
+    "aliases": ["Otosporin Ear Drops"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Ciprodex",
+    "generic": "Ciprofloxacin + Dexamethasone",
+    "aliases": ["Ciprodex Ear Drops"],
+    "strengths": ["0.3%/0.1%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Sofradex",
+    "generic": "Framycetin + Dexamethasone",
+    "aliases": ["Sofradex Ear Drops", "Sofradex Eye Drops"],
+    "strengths": [],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Waxsol",
+    "generic": "Docusate",
+    "aliases": ["Waxsol Ear Drops", "Cerumol", "Otex"],
+    "strengths": ["0.5%"],
+    "forms": ["drops"],
+    "category": "Other"
+  },
+  {
+    "name": "Nicorette",
+    "generic": "Nicotine",
+    "aliases": [
+      "Nicorette Gum",
+      "Nicorette Patch",
+      "Nicorette Inhaler",
+      "Nicotine Gum",
+      "Nicotine Patch"
+    ],
+    "strengths": ["2 mg", "4 mg", "15 mg", "25 mg"],
+    "forms": ["patch", "lozenge"],
+    "category": "Other"
+  },
+  {
+    "name": "Champix",
+    "generic": "Varenicline",
+    "aliases": ["Varenicline"],
+    "strengths": ["0.5 mg", "1 mg"],
+    "forms": ["tablet"],
+    "category": "Other"
+  },
+  {
+    "name": "Xenical",
+    "generic": "Orlistat",
+    "aliases": ["Orlistat"],
+    "strengths": ["60 mg", "120 mg"],
+    "forms": ["capsule"],
+    "category": "Other"
+  },
+  {
+    "name": "Cystone",
+    "generic": "Herbal",
+    "aliases": ["Cystone Tablets", "Cystone Syrup"],
+    "strengths": [],
+    "forms": ["tablet"],
+    "category": "Other"
+  },
+  {
+    "name": "Uro-Vaxom",
+    "generic": "Escherichia coli lysate",
+    "aliases": [],
+    "strengths": ["6 mg"],
+    "forms": ["capsule"],
+    "category": "Other"
+  },
+  {
+    "name": "Cranberry",
+    "generic": "Cranberry Extract",
+    "aliases": ["Cranberry Capsules", "Cranberry Juice Extract"],
+    "strengths": [],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Ginkgo",
+    "generic": "Ginkgo Biloba",
+    "aliases": ["Ginkgo Biloba", "Tanakan", "Ginkgo 120"],
+    "strengths": ["40 mg", "60 mg", "120 mg"],
+    "forms": ["tablet", "capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Ginseng",
+    "generic": "Panax Ginseng",
+    "aliases": ["Ginseng Capsules", "Korean Ginseng"],
+    "strengths": [],
+    "forms": ["capsule"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Honey Syrup",
+    "generic": "Honey",
+    "aliases": ["Cough Syrup Honey", "Herbal Cough Syrup"],
+    "strengths": [],
+    "forms": ["syrup"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Zyrtec Drops",
+    "generic": "Cetirizine",
+    "aliases": ["Zyrtec Oral Drops"],
+    "strengths": ["10 mg/ml"],
+    "forms": ["drops"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Aerius Syrup",
+    "generic": "Desloratadine",
+    "aliases": [],
+    "strengths": ["0.5 mg/ml"],
+    "forms": ["syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Claritin Syrup",
+    "generic": "Loratadine",
+    "aliases": [],
+    "strengths": ["5 mg/5 ml"],
+    "forms": ["syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Ventolin Syrup",
+    "generic": "Salbutamol",
+    "aliases": [],
+    "strengths": ["2 mg/5 ml"],
+    "forms": ["syrup"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Amoxil Syrup",
+    "generic": "Amoxicillin",
+    "aliases": [],
+    "strengths": ["125 mg/5 ml", "250 mg/5 ml"],
+    "forms": ["suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Augmentin Suspension",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "aliases": ["Augmentin Syrup"],
+    "strengths": ["228 mg/5 ml", "457 mg/5 ml"],
+    "forms": ["suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Zithromax Suspension",
+    "generic": "Azithromycin",
+    "aliases": [],
+    "strengths": ["200 mg/5 ml"],
+    "forms": ["suspension"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Brufen Syrup",
+    "generic": "Ibuprofen",
+    "aliases": [],
+    "strengths": ["100 mg/5 ml"],
+    "forms": ["syrup"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Panadol Suspension",
+    "generic": "Paracetamol",
+    "aliases": [],
+    "strengths": ["120 mg/5 ml"],
+    "forms": ["suspension"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Cetirizine Syrup",
+    "generic": "Cetirizine",
+    "aliases": [],
+    "strengths": ["5 mg/5 ml"],
+    "forms": ["syrup"],
+    "category": "Allergy"
+  },
+  {
+    "name": "Domperidone",
+    "generic": "Domperidone",
+    "aliases": ["Domperidone Maleate"],
+    "strengths": ["10 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Ondansetron",
+    "generic": "Ondansetron",
+    "aliases": ["Ondansetron ODT"],
+    "strengths": ["4 mg", "8 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Pantoprazole",
+    "generic": "Pantoprazole",
+    "aliases": ["Pantoprazole Sodium", "Pantop"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Rabeprazole",
+    "generic": "Rabeprazole",
+    "aliases": ["Rabeprazole Sodium"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Cefuroxime",
+    "generic": "Cefuroxime",
+    "aliases": ["Cefuroxime Axetil Tablets"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Cefixime",
+    "generic": "Cefixime",
+    "aliases": ["Cefixime Capsules"],
+    "strengths": ["200 mg", "400 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Cefalexin",
+    "generic": "Cefalexin",
+    "aliases": ["Cephalexin Capsules"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Cefadroxil",
+    "generic": "Cefadroxil",
+    "aliases": ["Duricef", "Cefadroxil Capsules"],
+    "strengths": ["250 mg", "500 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Clindamycin",
+    "generic": "Clindamycin",
+    "aliases": ["Clindamycin Capsules"],
+    "strengths": ["150 mg", "300 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Doxycycline",
+    "generic": "Doxycycline",
+    "aliases": ["Doxycycline Hyclate", "Doxycycline Capsules"],
+    "strengths": ["100 mg"],
+    "forms": ["capsule", "tablet"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Fluconazole",
+    "generic": "Fluconazole",
+    "aliases": ["Fluconazole Capsules"],
+    "strengths": ["50 mg", "150 mg"],
+    "forms": ["capsule"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Acyclovir",
+    "generic": "Acyclovir",
+    "aliases": ["Aciclovir Tablets", "Acyclovir Cream"],
+    "strengths": ["200 mg", "400 mg", "5%"],
+    "forms": ["tablet", "cream"],
+    "category": "Antibiotics"
+  },
+  {
+    "name": "Amlodipine",
+    "generic": "Amlodipine",
+    "aliases": ["Amlodipine Besilate", "Amlodipine Tablets"],
+    "strengths": ["5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Atorvastatin",
+    "generic": "Atorvastatin",
+    "aliases": ["Atorvastatin Tablets"],
+    "strengths": ["10 mg", "20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Rosuvastatin",
+    "generic": "Rosuvastatin",
+    "aliases": ["Rosuvastatin Tablets"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Losartan",
+    "generic": "Losartan",
+    "aliases": ["Losartan Potassium Tablets"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Bisoprolol",
+    "generic": "Bisoprolol",
+    "aliases": ["Bisoprolol Tablets"],
+    "strengths": ["2.5 mg", "5 mg", "10 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Lisinopril",
+    "generic": "Lisinopril",
+    "aliases": ["Lisinopril Tablets"],
+    "strengths": ["5 mg", "10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Furosemide",
+    "generic": "Furosemide",
+    "aliases": ["Furosemide Tablets"],
+    "strengths": ["20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Levothyroxine",
+    "generic": "Levothyroxine",
+    "aliases": ["Levothyroxine Sodium"],
+    "strengths": ["25 mcg", "50 mcg", "100 mcg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Sertraline",
+    "generic": "Sertraline",
+    "aliases": ["Sertraline Tablets"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Escitalopram",
+    "generic": "Escitalopram",
+    "aliases": ["Escitalopram Tablets"],
+    "strengths": ["10 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Gabapentin",
+    "generic": "Gabapentin",
+    "aliases": ["Gabapentin Capsules"],
+    "strengths": ["100 mg", "300 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Pregabalin",
+    "generic": "Pregabalin",
+    "aliases": ["Pregabalin Capsules"],
+    "strengths": ["75 mg", "150 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Clopidogrel",
+    "generic": "Clopidogrel",
+    "aliases": ["Clopidogrel Tablets"],
+    "strengths": ["75 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Allopurinol",
+    "generic": "Allopurinol",
+    "aliases": ["Allopurinol Tablets"],
+    "strengths": ["100 mg", "300 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tamsulosin",
+    "generic": "Tamsulosin",
+    "aliases": ["Tamsulosin Capsules"],
+    "strengths": ["0.4 mg"],
+    "forms": ["capsule"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Sildenafil",
+    "generic": "Sildenafil",
+    "aliases": ["Sildenafil Tablets"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Tadalafil",
+    "generic": "Tadalafil",
+    "aliases": ["Tadalafil Tablets"],
+    "strengths": ["5 mg", "20 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Spironolactone",
+    "generic": "Spironolactone",
+    "aliases": ["Spironolactone Tablets"],
+    "strengths": ["25 mg", "50 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Simvastatin",
+    "generic": "Simvastatin",
+    "aliases": ["Simvastatin Tablets"],
+    "strengths": ["10 mg", "20 mg", "40 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Glimepiride",
+    "generic": "Glimepiride",
+    "aliases": ["Glimepiride Tablets"],
+    "strengths": ["1 mg", "2 mg", "4 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Gliclazide",
+    "generic": "Gliclazide",
+    "aliases": ["Gliclazide MR", "Gliclazide Tablets"],
+    "strengths": ["30 mg", "60 mg", "80 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Sitagliptin",
+    "generic": "Sitagliptin",
+    "aliases": ["Sitagliptin Tablets"],
+    "strengths": ["50 mg", "100 mg"],
+    "forms": ["tablet"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Salbutamol Inhaler",
+    "generic": "Salbutamol",
+    "aliases": [],
+    "strengths": ["100 mcg"],
+    "forms": ["inhaler"],
+    "category": "Chronic medication"
+  },
+  {
+    "name": "Baby Powder",
+    "generic": "Talc",
+    "aliases": ["Johnson's Baby Powder", "Talcum Powder"],
+    "strengths": [],
+    "forms": ["powder"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Diaper Rash Cream",
+    "generic": "Zinc Oxide",
+    "aliases": ["Desitin", "Drapolene", "Nappy Rash Cream"],
+    "strengths": [],
+    "forms": ["cream"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Lip Balm",
+    "generic": "Lip Care",
+    "aliases": ["Blistex", "Carmex", "Lip Balm"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Sunscreen",
+    "generic": "Sunscreen",
+    "aliases": ["Sun Cream", "SPF 50", "Sunblock", "Sun Protection"],
+    "strengths": [],
+    "forms": ["cream", "lotion"],
+    "category": "Skin care"
+  },
+  {
+    "name": "Insect Repellent",
+    "generic": "DEET",
+    "aliases": ["Off", "Mosquito Repellent", "Autan"],
+    "strengths": [],
+    "forms": ["spray", "lotion"],
+    "category": "First aid"
+  },
+  {
+    "name": "Antiseptic Wipes",
+    "generic": "Antiseptic",
+    "aliases": ["Alcohol Wipes", "Swabs"],
+    "strengths": [],
+    "forms": ["other"],
+    "category": "First aid"
+  },
+  {
+    "name": "Plasters",
+    "generic": "Adhesive Bandage",
+    "aliases": ["Band-Aid", "Elastoplast", "Adhesive Plasters"],
+    "strengths": [],
+    "forms": ["other"],
+    "category": "First aid"
+  },
+  {
+    "name": "Thermometer Gel",
+    "generic": "Lubricant",
+    "aliases": ["KY Jelly", "K-Y Jelly"],
+    "strengths": [],
+    "forms": ["gel"],
+    "category": "First aid"
+  },
+  {
+    "name": "Burn Gel",
+    "generic": "Burn Relief",
+    "aliases": ["Burnshield", "Burnaid", "Burn Gel", "Flamazine", "Silver Sulfadiazine"],
+    "strengths": ["1%"],
+    "forms": ["gel", "cream"],
+    "category": "First aid"
+  },
+  {
+    "name": "Arnica",
+    "generic": "Arnica Montana",
+    "aliases": ["Arnica Gel", "Arnica Cream", "Traumeel"],
+    "strengths": [],
+    "forms": ["gel", "cream"],
+    "category": "First aid"
+  },
+  {
+    "name": "Hot Water Bottle Rub",
+    "generic": "Menthol",
+    "aliases": ["Tiger Balm", "Bengay", "Ben Gay", "Mentholatum"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Tiger Balm",
+    "generic": "Camphor + Menthol",
+    "aliases": ["Tiger Balm Red", "Tiger Balm White"],
+    "strengths": [],
+    "forms": ["ointment"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Ibuprofen Gel",
+    "generic": "Ibuprofen",
+    "aliases": ["Ibuleve", "Ibugel"],
+    "strengths": ["5%"],
+    "forms": ["gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Diclofenac Gel",
+    "generic": "Diclofenac",
+    "aliases": [],
+    "strengths": ["1%"],
+    "forms": ["gel"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Paracetamol Suppositories",
+    "generic": "Paracetamol",
+    "aliases": ["Paracetamol Supp"],
+    "strengths": ["125 mg", "250 mg", "500 mg"],
+    "forms": ["suppository"],
+    "category": "Pain relief"
+  },
+  {
+    "name": "Glycerin Suppositories",
+    "generic": "Glycerol",
+    "aliases": ["Glycerine Suppository", "Glycerol Suppository"],
+    "strengths": ["1 g", "2 g", "4 g"],
+    "forms": ["suppository"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Lactulose Syrup",
+    "generic": "Lactulose",
+    "aliases": [],
+    "strengths": ["3.35 g/5 ml"],
+    "forms": ["syrup"],
+    "category": "Digestive"
+  },
+  {
+    "name": "Cough Lozenges",
+    "generic": "Menthol",
+    "aliases": ["Halls", "Ricola", "Cough Drops"],
+    "strengths": [],
+    "forms": ["lozenge"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Halls",
+    "generic": "Menthol + Eucalyptus",
+    "aliases": ["Halls Mentho-Lyptus", "Halls Cherry"],
+    "strengths": [],
+    "forms": ["lozenge"],
+    "category": "Cold & flu"
+  },
+  {
+    "name": "Vitamin C Effervescent",
+    "generic": "Ascorbic Acid",
+    "aliases": ["Vitamin C Fizzy"],
+    "strengths": ["1000 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Vitamin D3 Drops",
+    "generic": "Cholecalciferol",
+    "aliases": ["Baby D Drops", "Vitamin D Drops"],
+    "strengths": ["400 IU/drop"],
+    "forms": ["drops"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Iron Syrup",
+    "generic": "Iron",
+    "aliases": ["Ferrous Syrup", "Iron Drops", "Ferrum", "Ferrum Hausmann"],
+    "strengths": [],
+    "forms": ["syrup", "drops"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Calcium Sandoz",
+    "generic": "Calcium",
+    "aliases": ["Calcium-Sandoz", "Calcium Sandoz Forte"],
+    "strengths": ["500 mg"],
+    "forms": ["tablet"],
+    "category": "Vitamins & supplements"
+  },
+  {
+    "name": "Kidz Multivitamin",
+    "generic": "Multivitamin",
+    "aliases": ["Pediakid", "Sanostol", "Kids Multivitamin", "Haliborange", "Haliborange Kids"],
+    "strengths": [],
+    "forms": ["syrup", "tablet"],
+    "category": "Vitamins & supplements"
+  }
+]
