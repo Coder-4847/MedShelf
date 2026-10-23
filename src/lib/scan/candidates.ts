@@ -365,6 +365,8 @@ function splitCluster(cluster: Line[], matcher: DrugMatcher): Line[][] {
 /** Drop candidates that are just label boilerplate. */
 function isNoise(c: Candidate, lines: Line[]): boolean {
   if (c.matchedEntry) return false
+  // Boilerplate that survived clustering ("Keep out of reach of children", "...active ingredient 20mg").
+  if (/keep|reach|child|ingred|contain|storebelow/i.test(c.name.replace(/\s+/g, ''))) return true
   const best = lines.reduce((m, l) => Math.max(m, l.region.score), 0)
   const hasName = lines.some(isProperName)
   return !hasName || best < 0.5 || c.name.length < 3

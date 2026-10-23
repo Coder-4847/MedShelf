@@ -168,15 +168,17 @@ test('settings shows the safety notice; dark mode applies', async ({ page }) => 
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark')
 })
 
-test('expired checklist: mark as disposed from the dashboard', async ({ page }) => {
+test('expired checklist: guidance note, then mark as disposed from the dashboard', async ({
+  page,
+}) => {
   await page.getByRole('button', { name: 'Import' }).first().click()
   await page.setInputFiles('#import-file', CSV)
   await page.getByRole('button', { name: /^Import \d+/ }).click()
+  await page.goto('/#/inventory?view=expired')
+  await expect(page.getByTestId('expired-note')).toContainText('pharmacy')
   await page.goto('/#/')
   await expect(page.getByText('Return expired medicines to a pharmacy')).toBeVisible()
   await page.getByRole('button', { name: 'Dispose' }).first().click()
-  await page.goto('/#/inventory?view=expired')
-  await expect(page.getByTestId('expired-note')).toContainText('pharmacy')
   await page.goto('/#/inventory?view=disposed')
   await expect(rowOf(page, 'Augmentin')).toBeVisible()
 })
