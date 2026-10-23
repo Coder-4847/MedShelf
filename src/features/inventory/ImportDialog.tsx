@@ -36,16 +36,17 @@ export function ImportDialog({ open, onClose }: { open: boolean; onClose: () => 
     setFileName(file.name)
     try {
       const lower = file.name.toLowerCase()
+      // Decide by content, not just the extension: .xlsx files are ZIP archives ("PK").
+      const head = new Uint8Array(await file.slice(0, 4).arrayBuffer())
+      const isZip = head[0] === 0x50 && head[1] === 0x4b
       let parsed: ImportResult
-      if (lower.endsWith('.csv') || file.type === 'text/csv') {
-        parsed = parseCsvItems(await file.text())
-      } else if (lower.endsWith('.xlsx')) {
+      if (isZip) {
         const { parseXlsx } = await import('../../lib/io/xlsx')
         parsed = rowsToItems(await parseXlsx(await file.arrayBuffer()))
+      } else if (lower.endsWith('.xls') || (head[0] === 0xd0 && head[1] === 0xcf)) {
+        throw new Error('Older .xls files are not supported. Re-save the file as .xlsx or .csv.')
       } else {
-        throw new Error(
-          'Choose a .csv or .xlsx file. Older .xls files should be re-saved as .xlsx.',
-        )
+        parsed = parseCsvItems(await file.text())
       }
       const current = await db.items.toArray()
       setDupCount(parsed.rows.filter((row) => findDuplicate(current, row.item)).length)

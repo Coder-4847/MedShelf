@@ -8,6 +8,7 @@ import { purgeOrphanPhotos } from './db/repo'
 import { DashboardPage } from './features/dashboard/DashboardPage'
 import { InventoryPage } from './features/inventory/InventoryPage'
 import { SettingsPage } from './features/settings/SettingsPage'
+import { ScanSessionProvider } from './features/scan/session'
 
 const ScanPage = lazy(() => import('./features/scan/ScanPage'))
 
@@ -45,11 +46,13 @@ export default function App() {
 
   return (
     <ToastProvider>
-      <Shell path={route.path} theme={settings.theme}>
-        <Suspense fallback={<p className="py-10 text-center text-muted">Loading...</p>}>
-          {page}
-        </Suspense>
-      </Shell>
+      <ScanSessionProvider>
+        <Shell path={route.path} theme={settings.theme}>
+          <Suspense fallback={<p className="py-10 text-center text-muted">Loading...</p>}>
+            {page}
+          </Suspense>
+        </Shell>
+      </ScanSessionProvider>
     </ToastProvider>
   )
 }

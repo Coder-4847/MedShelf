@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitest/config'
+import { defaultClientConditions } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -43,7 +44,8 @@ export default defineConfig({
         navigateFallback: 'index.html',
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => /\/(vendor|models)\//.test(url.pathname),
+            // Only the Tesseract fallback files; models and ONNX WASM are cached by the reader itself.
+            urlPattern: ({ url }) => /\/vendor\/tesseract\//.test(url.pathname),
             handler: 'CacheFirst',
             options: {
               cacheName: 'medshelf-reader-v1',
@@ -54,6 +56,9 @@ export default defineConfig({
       },
     }),
   ],
+  // Use onnxruntime-web's "extern wasm" build: the app loads its WASM itself (from the offline
+  // cache), so it must not also be bundled into the site.
+  resolve: { conditions: [...defaultClientConditions, 'onnxruntime-web-use-extern-wasm'] },
   worker: { format: 'es' },
   build: { target: 'es2022', chunkSizeWarningLimit: 1200 },
   test: {

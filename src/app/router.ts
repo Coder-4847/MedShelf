@@ -31,3 +31,16 @@ export function useNavigate() {
 export function href(to: string): string {
   return `#${to}`
 }
+
+/** True at the Tailwind `md` breakpoint and up. Used to render one layout, not both. */
+export function useIsDesktop(): boolean {
+  const query = '(min-width: 768px)'
+  const [match, setMatch] = useState(() => window.matchMedia(query).matches)
+  useEffect(() => {
+    const mq = window.matchMedia(query)
+    const on = () => setMatch(mq.matches)
+    mq.addEventListener('change', on)
+    return () => mq.removeEventListener('change', on)
+  }, [])
+  return match
+}

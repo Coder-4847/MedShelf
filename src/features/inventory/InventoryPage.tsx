@@ -51,7 +51,7 @@ import {
   type ExpiryStatus,
 } from '../../lib/expiry'
 import { friendlyDbError } from '../../lib/errors'
-import { useRoute } from '../../app/router'
+import { useIsDesktop, useRoute } from '../../app/router'
 
 interface Row extends Item {
   _status: ExpiryStatus
@@ -142,6 +142,7 @@ export function InventoryPage() {
   const settings = useSettings()
   const toast = useToast()
   const route = useRoute()
+  const isDesktop = useIsDesktop()
 
   const initialView = (route.params.get('view') as View) || 'active'
   const [view, setView] = useState<View>(initialView in VIEW_LABEL ? initialView : 'active')
@@ -719,135 +720,139 @@ export function InventoryPage() {
         ) : (
           <>
             {/* Desktop table */}
-            <div className="hidden overflow-x-auto rounded-[14px] border border-line bg-surface shadow-sm md:block">
-              <table className="w-full border-collapse text-left text-sm">
-                <caption className="sr-only">Medicine inventory. Cells are editable.</caption>
-                <thead className="bg-surface-2 text-xs uppercase tracking-wide text-muted">
-                  {table.getHeaderGroups().map((hg) => (
-                    <tr key={hg.id}>
-                      {hg.headers.map((h) => {
-                        const sorted = h.column.getIsSorted()
-                        return (
-                          <th
-                            key={h.id}
-                            scope="col"
-                            className="whitespace-nowrap px-2 py-2.5 font-semibold"
-                            aria-sort={
-                              sorted === 'asc'
-                                ? 'ascending'
-                                : sorted === 'desc'
-                                  ? 'descending'
-                                  : undefined
-                            }
-                          >
-                            {h.column.getCanSort() ? (
-                              <button
-                                className="inline-flex min-h-[36px] items-center gap-1 rounded-md px-1 uppercase hover:text-fg"
-                                onClick={h.column.getToggleSortingHandler()}
-                              >
-                                {flexRender(h.column.columnDef.header, h.getContext())}
-                                <Icon
-                                  name={sorted === 'desc' ? 'chevronDown' : 'chevronUp'}
-                                  size={14}
-                                  className={sorted ? 'opacity-100' : 'opacity-25'}
-                                />
-                              </button>
-                            ) : (
-                              <span className="px-1">
-                                {flexRender(h.column.columnDef.header, h.getContext())}
-                              </span>
-                            )}
-                          </th>
-                        )
-                      })}
-                    </tr>
-                  ))}
-                </thead>
-                <tbody>
-                  {visibleRows.map((row) => (
-                    <tr
-                      key={row.id}
-                      data-testid="inventory-row"
-                      className={`border-t border-line align-top ${row.getIsSelected() ? 'bg-accent-soft/50' : ''} ${row.original.status === 'disposed' ? 'opacity-60' : ''}`}
-                    >
-                      {row.getVisibleCells().map((cell) => (
-                        <td key={cell.id} className="px-2 py-2">
-                          {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            {isDesktop && (
+              <div className="overflow-x-auto rounded-[14px] border border-line bg-surface shadow-sm md:block">
+                <table className="w-full border-collapse text-left text-sm">
+                  <caption className="sr-only">Medicine inventory. Cells are editable.</caption>
+                  <thead className="bg-surface-2 text-xs uppercase tracking-wide text-muted">
+                    {table.getHeaderGroups().map((hg) => (
+                      <tr key={hg.id}>
+                        {hg.headers.map((h) => {
+                          const sorted = h.column.getIsSorted()
+                          return (
+                            <th
+                              key={h.id}
+                              scope="col"
+                              className="whitespace-nowrap px-2 py-2.5 font-semibold"
+                              aria-sort={
+                                sorted === 'asc'
+                                  ? 'ascending'
+                                  : sorted === 'desc'
+                                    ? 'descending'
+                                    : undefined
+                              }
+                            >
+                              {h.column.getCanSort() ? (
+                                <button
+                                  className="inline-flex min-h-[36px] items-center gap-1 rounded-md px-1 uppercase hover:text-fg"
+                                  onClick={h.column.getToggleSortingHandler()}
+                                >
+                                  {flexRender(h.column.columnDef.header, h.getContext())}
+                                  <Icon
+                                    name={sorted === 'desc' ? 'chevronDown' : 'chevronUp'}
+                                    size={14}
+                                    className={sorted ? 'opacity-100' : 'opacity-25'}
+                                  />
+                                </button>
+                              ) : (
+                                <span className="px-1">
+                                  {flexRender(h.column.columnDef.header, h.getContext())}
+                                </span>
+                              )}
+                            </th>
+                          )
+                        })}
+                      </tr>
+                    ))}
+                  </thead>
+                  <tbody>
+                    {visibleRows.map((row) => (
+                      <tr
+                        key={row.id}
+                        data-testid="inventory-row"
+                        className={`border-t border-line align-top ${row.getIsSelected() ? 'bg-accent-soft/50' : ''} ${row.original.status === 'disposed' ? 'opacity-60' : ''}`}
+                      >
+                        {row.getVisibleCells().map((cell) => (
+                          <td key={cell.id} className="px-2 py-2">
+                            {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
 
             {/* Mobile cards */}
-            <ul className="flex flex-col gap-3 md:hidden" aria-label="Medicines">
-              {visibleRows.map((row) => {
-                const r = row.original
-                const days = r.expiryDate ? daysUntil(r.expiryDate) : null
-                return (
-                  <li
-                    key={row.id}
-                    data-testid="inventory-card"
-                    className={`rounded-[14px] border border-line bg-surface p-3 shadow-sm ${r.status === 'disposed' ? 'opacity-60' : ''}`}
-                  >
-                    <div className="flex items-start gap-3">
-                      <input
-                        type="checkbox"
-                        className="mt-3 h-5 w-5 accent-[var(--accent)]"
-                        aria-label={`Select ${r.name}`}
-                        checked={row.getIsSelected()}
-                        onChange={row.getToggleSelectedHandler()}
-                      />
-                      <button
-                        className="flex min-w-0 flex-1 items-start gap-3 text-left"
-                        onClick={() => setOpenId(r.id!)}
-                        aria-label={`Open details for ${r.name}`}
-                      >
-                        <PhotoThumb photoId={r.photoId} size={48} />
-                        <span className="min-w-0">
-                          <span className="block truncate font-semibold">{r.name}</span>
-                          <span className="block truncate text-sm text-muted">
-                            {[r.strength, r.form].filter(Boolean).join(' · ') || 'No details'}
-                          </span>
-                          <span className="block truncate text-xs text-muted">
-                            {[r.location, r.category].filter(Boolean).join(' · ')}
-                          </span>
-                        </span>
-                      </button>
-                    </div>
-                    <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-line pt-3">
-                      <div className="flex items-center gap-2">
-                        <QuantityStepper
-                          value={r.quantity}
-                          label={r.name}
-                          onChange={(n) => guard(() => adjustQuantity(r.id!, n - r.quantity))}
+            {!isDesktop && (
+              <ul className="flex flex-col gap-3" aria-label="Medicines">
+                {visibleRows.map((row) => {
+                  const r = row.original
+                  const days = r.expiryDate ? daysUntil(r.expiryDate) : null
+                  return (
+                    <li
+                      key={row.id}
+                      data-testid="inventory-card"
+                      className={`rounded-[14px] border border-line bg-surface p-3 shadow-sm ${r.status === 'disposed' ? 'opacity-60' : ''}`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <input
+                          type="checkbox"
+                          className="mt-3 h-5 w-5 accent-[var(--accent)]"
+                          aria-label={`Select ${r.name}`}
+                          checked={row.getIsSelected()}
+                          onChange={row.getToggleSelectedHandler()}
                         />
-                        {r._low && <Badge>Low</Badge>}
-                      </div>
-                      <div className="flex flex-col items-end gap-0.5">
-                        <StatusChip
-                          status={r.status === 'disposed' ? 'none' : r._status}
-                          label={r.status === 'disposed' ? 'Disposed' : undefined}
-                        />
-                        {r.expiryDate && (
-                          <span className="text-xs text-muted">
-                            {formatExpiry(r.expiryDate)}
-                            {days !== null &&
-                            r.status === 'active' &&
-                            days >= 0 &&
-                            days <= settings.expiryWarningDays
-                              ? ''
-                              : ''}
+                        <button
+                          className="flex min-w-0 flex-1 items-start gap-3 text-left"
+                          onClick={() => setOpenId(r.id!)}
+                          aria-label={`Open details for ${r.name}`}
+                        >
+                          <PhotoThumb photoId={r.photoId} size={48} />
+                          <span className="min-w-0">
+                            <span className="block truncate font-semibold">{r.name}</span>
+                            <span className="block truncate text-sm text-muted">
+                              {[r.strength, r.form].filter(Boolean).join(' · ') || 'No details'}
+                            </span>
+                            <span className="block truncate text-xs text-muted">
+                              {[r.location, r.category].filter(Boolean).join(' · ')}
+                            </span>
                           </span>
-                        )}
+                        </button>
                       </div>
-                    </div>
-                  </li>
-                )
-              })}
-            </ul>
+                      <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-line pt-3">
+                        <div className="flex items-center gap-2">
+                          <QuantityStepper
+                            value={r.quantity}
+                            label={r.name}
+                            onChange={(n) => guard(() => adjustQuantity(r.id!, n - r.quantity))}
+                          />
+                          {r._low && <Badge>Low</Badge>}
+                        </div>
+                        <div className="flex flex-col items-end gap-0.5">
+                          <StatusChip
+                            status={r.status === 'disposed' ? 'none' : r._status}
+                            label={r.status === 'disposed' ? 'Disposed' : undefined}
+                          />
+                          {r.expiryDate && (
+                            <span className="text-xs text-muted">
+                              {formatExpiry(r.expiryDate)}
+                              {days !== null &&
+                              r.status === 'active' &&
+                              days >= 0 &&
+                              days <= settings.expiryWarningDays
+                                ? ''
+                                : ''}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+            )}
           </>
         )}
       </div>

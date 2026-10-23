@@ -163,9 +163,11 @@ export async function learnAlias(
   raw: string,
   canonical: string,
   extra: Partial<Pick<AliasRecord, 'genericName' | 'strength' | 'form' | 'category'>> = {},
+  opts: { force?: boolean } = {},
 ) {
   const key = aliasKey(raw)
-  if (key.length < 3 || normalize(key) === normalize(canonical)) return
+  // An identity mapping is only useful to teach the app a medicine that is not in its list.
+  if (key.length < 3 || (normalize(key) === normalize(canonical) && !opts.force)) return
   const existing = await db.aliases.get(key)
   await db.aliases.put({
     ...existing,

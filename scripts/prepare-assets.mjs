@@ -24,7 +24,7 @@ for (const f of ['ort-wasm-simd-threaded.wasm', 'ort-wasm-simd-threaded.mjs']) {
 copy(nm('tesseract.js/dist/worker.min.js'), out('tesseract/worker.min.js'))
 const coreDir = nm('tesseract.js-core')
 for (const f of readdirSync(coreDir)) {
-  if (/^tesseract-core-(relaxedsimd-|simd-)?lstm\.(js|wasm)$/.test(f)) {
+  if (/^tesseract-core-(relaxedsimd-|simd-)?lstm\.wasm\.js$/.test(f)) {
     copy(join(coreDir, f), out(`tesseract/core/${f}`))
   }
 }
