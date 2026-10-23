@@ -2,7 +2,10 @@ name: Test and deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # The repository's default branch is currently claude/exciting-cori-k1d1ib, and GitHub's
+    # "github-pages" environment only accepts deployments from the default branch. Once the
+    # default is switched to main, the second entry can be removed.
+    branches: [main, claude/exciting-cori-k1d1ib]
   workflow_dispatch:
 
 permissions:
