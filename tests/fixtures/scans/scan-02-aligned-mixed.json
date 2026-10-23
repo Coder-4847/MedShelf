@@ -1,0 +1,265 @@
+{
+ "id": "scan-02-aligned-mixed",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "aligned",
+ "effects": {},
+ "boxes": [
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1795,
+     101
+    ],
+    [
+     2339,
+     16
+    ],
+    [
+     2375,
+     247
+    ],
+    [
+     1831,
+     332
+    ]
+   ]
+  },
+  {
+   "name": "Orelix",
+   "kind": "invented",
+   "strength": "150 mg",
+   "form": "Capsule",
+   "pack": "30 capsules",
+   "expiry": "2026-05-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K8474A",
+   "gtin": "06291125057848",
+   "serial": "2964060172",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1034,
+     235
+    ],
+    [
+     1489,
+     338
+    ],
+    [
+     1432,
+     589
+    ],
+    [
+     977,
+     486
+    ]
+   ]
+  },
+  {
+   "name": "Lorvexa",
+   "kind": "invented",
+   "strength": "20 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2026-06-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "M1766A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1516,
+     606
+    ],
+    [
+     2025,
+     488
+    ],
+    [
+     2082,
+     734
+    ],
+    [
+     1573,
+     852
+    ]
+   ]
+  },
+  {
+   "name": "Zyrtec",
+   "kind": "brand",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2026-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "M7876A",
+   "gtin": "06291100131105",
+   "serial": "1633574343",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     89,
+     201
+    ],
+    [
+     622,
+     57
+    ],
+    [
+     681,
+     277
+    ],
+    [
+     148,
+     421
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2026-06-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "K6937B",
+   "gtin": "06291157952401",
+   "serial": "6509738247",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     574,
+     593
+    ],
+    [
+     1040,
+     628
+    ],
+    [
+     1022,
+     859
+    ],
+    [
+     556,
+     824
+    ]
+   ]
+  },
+  {
+   "name": "Betaprin",
+   "kind": "invented",
+   "strength": "75 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2029-05-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B8180B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     646,
+     1326
+    ],
+    [
+     1116,
+     1325
+    ],
+    [
+     1116,
+     1574
+    ],
+    [
+     646,
+     1575
+    ]
+   ]
+  },
+  {
+   "name": "Ventolin",
+   "kind": "brand",
+   "strength": "100 mcg",
+   "form": "Inhaler",
+   "pack": "200 inhaler",
+   "expiry": "2026-03-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "X3427",
+   "gtin": "06291136250665",
+   "serial": "9316189264",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1320,
+     1022
+    ],
+    [
+     1817,
+     903
+    ],
+    [
+     1882,
+     1174
+    ],
+    [
+     1385,
+     1293
+    ]
+   ]
+  },
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2029-04-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "M1130",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     630,
+     943
+    ],
+    [
+     1108,
+     889
+    ],
+    [
+     1140,
+     1175
+    ],
+    [
+     662,
+     1229
+    ]
+   ]
+  }
+ ]
+}

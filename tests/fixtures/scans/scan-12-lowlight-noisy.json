@@ -1,0 +1,269 @@
+{
+ "id": "scan-12-lowlight-noisy",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "mixed",
+ "effects": {
+  "dim": 0.6,
+  "noise": 0.22,
+  "blur": 0.8
+ },
+ "boxes": [
+  {
+   "name": "Paracetamol",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "20 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     388,
+     668
+    ],
+    [
+     740,
+     1002
+    ],
+    [
+     552,
+     1200
+    ],
+    [
+     200,
+     866
+    ]
+   ]
+  },
+  {
+   "name": "Orelix",
+   "kind": "invented",
+   "strength": "150 mg",
+   "form": "Capsule",
+   "pack": "30 capsules",
+   "expiry": "2028-04-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "M9142",
+   "gtin": "06291182195088",
+   "serial": "5278526187",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     2306,
+     574
+    ],
+    [
+     2156,
+     1082
+    ],
+    [
+     1874,
+     998
+    ],
+    [
+     2024,
+     490
+    ]
+   ]
+  },
+  {
+   "name": "Metformin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "60 tablets",
+   "expiry": "2028-11-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "B8131A",
+   "gtin": "06291186370214",
+   "serial": "2182535221",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1240,
+     169
+    ],
+    [
+     967,
+     624
+    ],
+    [
+     762,
+     501
+    ],
+    [
+     1035,
+     46
+    ]
+   ]
+  },
+  {
+   "name": "Calmexa",
+   "kind": "invented",
+   "strength": "100 mg",
+   "form": "Tablet",
+   "pack": "12 tablets",
+   "expiry": "2026-12-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K9897",
+   "gtin": "06291156096410",
+   "serial": "2537506586",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1431,
+     441
+    ],
+    [
+     1887,
+     388
+    ],
+    [
+     1919,
+     659
+    ],
+    [
+     1463,
+     712
+    ]
+   ]
+  },
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2028-08-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B3928",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     561,
+     1440
+    ],
+    [
+     1090,
+     1438
+    ],
+    [
+     1091,
+     1690
+    ],
+    [
+     562,
+     1692
+    ]
+   ]
+  },
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2029-03-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B5910B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1678,
+     1503
+    ],
+    [
+     2210,
+     1369
+    ],
+    [
+     2274,
+     1623
+    ],
+    [
+     1742,
+     1757
+    ]
+   ]
+  },
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2029-11-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K4159A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1389,
+     1502
+    ],
+    [
+     1580,
+     1069
+    ],
+    [
+     1817,
+     1174
+    ],
+    [
+     1626,
+     1607
+    ]
+   ]
+  },
+  {
+   "name": "Brufen",
+   "kind": "brand",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2028-04-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K5931A",
+   "gtin": "06291113482539",
+   "serial": "4934703792",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     841,
+     680
+    ],
+    [
+     1339,
+     613
+    ],
+    [
+     1373,
+     868
+    ],
+    [
+     875,
+     935
+    ]
+   ]
+  }
+ ]
+}

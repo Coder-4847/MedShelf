@@ -1,0 +1,265 @@
+{
+ "id": "scan-07-random-8b",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {},
+ "boxes": [
+  {
+   "name": "Orelix",
+   "kind": "invented",
+   "strength": "150 mg",
+   "form": "Capsule",
+   "pack": "30 capsules",
+   "expiry": "2026-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "M8552B",
+   "gtin": "06291116639978",
+   "serial": "1209414439",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     668,
+     1487
+    ],
+    [
+     165,
+     1318
+    ],
+    [
+     240,
+     1093
+    ],
+    [
+     743,
+     1262
+    ]
+   ]
+  },
+  {
+   "name": "Cetirizine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2029-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "K7318B",
+   "gtin": "06291159414754",
+   "serial": "6380402754",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1904,
+     1178
+    ],
+    [
+     2103,
+     1668
+    ],
+    [
+     1832,
+     1778
+    ],
+    [
+     1633,
+     1288
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2026-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "B7503B",
+   "gtin": "06291112551953",
+   "serial": "7909241039",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1137,
+     688
+    ],
+    [
+     1326,
+     1132
+    ],
+    [
+     1091,
+     1232
+    ],
+    [
+     902,
+     788
+    ]
+   ]
+  },
+  {
+   "name": "Metformin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "60 tablets",
+   "expiry": "2027-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "B5283A",
+   "gtin": "06291145982687",
+   "serial": "8439297979",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     693,
+     835
+    ],
+    [
+     172,
+     1010
+    ],
+    [
+     87,
+     757
+    ],
+    [
+     608,
+     582
+    ]
+   ]
+  },
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2026-04-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K1877A",
+   "gtin": "06291113989656",
+   "serial": "3219917609",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1263,
+     705
+    ],
+    [
+     919,
+     322
+    ],
+    [
+     1127,
+     135
+    ],
+    [
+     1471,
+     518
+    ]
+   ]
+  },
+  {
+   "name": "Zyrtec",
+   "kind": "brand",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2027-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K5895B",
+   "gtin": "06291118749071",
+   "serial": "7537969380",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     2021,
+     573
+    ],
+    [
+     2236,
+     1059
+    ],
+    [
+     1991,
+     1167
+    ],
+    [
+     1776,
+     681
+    ]
+   ]
+  },
+  {
+   "name": "Panadol",
+   "kind": "brand",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "24 tablets",
+   "expiry": "2026-03-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B4409A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     762,
+     1423
+    ],
+    [
+     1256,
+     1481
+    ],
+    [
+     1224,
+     1761
+    ],
+    [
+     730,
+     1703
+    ]
+   ]
+  },
+  {
+   "name": "Brufen",
+   "kind": "brand",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-06-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K8943",
+   "gtin": "06291196378514",
+   "serial": "2032769990",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1542,
+     1040
+    ],
+    [
+     1380,
+     615
+    ],
+    [
+     1620,
+     524
+    ],
+    [
+     1782,
+     949
+    ]
+   ]
+  }
+ ]
+}

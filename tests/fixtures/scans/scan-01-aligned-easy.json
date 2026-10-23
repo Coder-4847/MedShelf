@@ -1,0 +1,201 @@
+{
+ "id": "scan-01-aligned-easy",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "aligned",
+ "effects": {},
+ "boxes": [
+  {
+   "name": "Zyrtec",
+   "kind": "brand",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2029-02-28",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "A6672A",
+   "gtin": "06291136917650",
+   "serial": "2129314108",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1529,
+     429
+    ],
+    [
+     2064,
+     448
+    ],
+    [
+     2055,
+     701
+    ],
+    [
+     1520,
+     682
+    ]
+   ]
+  },
+  {
+   "name": "Paracetamol",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "20 tablets",
+   "expiry": "2028-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X9652A",
+   "gtin": "06291157318719",
+   "serial": "6433690677",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1526,
+     858
+    ],
+    [
+     1994,
+     862
+    ],
+    [
+     1992,
+     1092
+    ],
+    [
+     1524,
+     1088
+    ]
+   ]
+  },
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2027-12-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B7846A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     100,
+     129
+    ],
+    [
+     661,
+     181
+    ],
+    [
+     636,
+     453
+    ],
+    [
+     75,
+     401
+    ]
+   ]
+  },
+  {
+   "name": "Ibuprofen",
+   "kind": "generic",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-06-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A8266",
+   "gtin": "06291199755138",
+   "serial": "1762992554",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1119,
+     1074
+    ],
+    [
+     1620,
+     1115
+    ],
+    [
+     1597,
+     1398
+    ],
+    [
+     1096,
+     1357
+    ]
+   ]
+  },
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2028-01-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "A5163",
+   "gtin": "06291172607430",
+   "serial": "4755292499",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     156,
+     966
+    ],
+    [
+     717,
+     929
+    ],
+    [
+     732,
+     1156
+    ],
+    [
+     171,
+     1193
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2028-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A2176",
+   "gtin": "06291113566802",
+   "serial": "8398080348",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     812,
+     318
+    ],
+    [
+     1369,
+     383
+    ],
+    [
+     1340,
+     626
+    ],
+    [
+     783,
+     561
+    ]
+   ]
+  }
+ ]
+}

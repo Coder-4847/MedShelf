@@ -1,0 +1,331 @@
+{
+ "id": "scan-03-aligned-dense",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "aligned",
+ "effects": {
+  "blur": 0.5
+ },
+ "boxes": [
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2028-05-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A1652B",
+   "gtin": "06291192648420",
+   "serial": "2066095743",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     399,
+     1054
+    ],
+    [
+     903,
+     960
+    ],
+    [
+     955,
+     1238
+    ],
+    [
+     451,
+     1332
+    ]
+   ]
+  },
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2026-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "M3905B",
+   "gtin": "06291157408892",
+   "serial": "9636228606",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     122,
+     792
+    ],
+    [
+     590,
+     743
+    ],
+    [
+     616,
+     990
+    ],
+    [
+     148,
+     1039
+    ]
+   ]
+  },
+  {
+   "name": "Calmexa",
+   "kind": "invented",
+   "strength": "100 mg",
+   "form": "Tablet",
+   "pack": "12 tablets",
+   "expiry": "2026-11-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "M1579",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1800,
+     1132
+    ],
+    [
+     2331,
+     1261
+    ],
+    [
+     2268,
+     1518
+    ],
+    [
+     1737,
+     1389
+    ]
+   ]
+  },
+  {
+   "name": "Gaviscon",
+   "kind": "brand",
+   "strength": null,
+   "form": "Syrup",
+   "pack": "150 ml",
+   "expiry": "2029-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K9875A",
+   "gtin": "06291166721463",
+   "serial": "2246416791",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1003,
+     950
+    ],
+    [
+     1536,
+     1038
+    ],
+    [
+     1499,
+     1268
+    ],
+    [
+     966,
+     1180
+    ]
+   ]
+  },
+  {
+   "name": "Cetirizine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2029-11-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K3723",
+   "gtin": "06291189890689",
+   "serial": "8014641097",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1337,
+     106
+    ],
+    [
+     1801,
+     171
+    ],
+    [
+     1763,
+     440
+    ],
+    [
+     1299,
+     375
+    ]
+   ]
+  },
+  {
+   "name": "Betaprin",
+   "kind": "invented",
+   "strength": "75 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2027-04-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B6296A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1793,
+     241
+    ],
+    [
+     2354,
+     224
+    ],
+    [
+     2361,
+     485
+    ],
+    [
+     1800,
+     502
+    ]
+   ]
+  },
+  {
+   "name": "Omeprazole",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Capsule",
+   "pack": "14 capsules",
+   "expiry": "2026-06-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "B1651",
+   "gtin": "06291187260583",
+   "serial": "8353815712",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     506,
+     132
+    ],
+    [
+     984,
+     177
+    ],
+    [
+     960,
+     440
+    ],
+    [
+     482,
+     395
+    ]
+   ]
+  },
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1456,
+     623
+    ],
+    [
+     1913,
+     692
+    ],
+    [
+     1870,
+     979
+    ],
+    [
+     1413,
+     910
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2029-05-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B1171",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1172,
+     1388
+    ],
+    [
+     1637,
+     1237
+    ],
+    [
+     1716,
+     1480
+    ],
+    [
+     1251,
+     1631
+    ]
+   ]
+  },
+  {
+   "name": "Zyrtec",
+   "kind": "brand",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2026-05-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "A4077",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     468,
+     1454
+    ],
+    [
+     947,
+     1380
+    ],
+    [
+     992,
+     1668
+    ],
+    [
+     513,
+     1742
+    ]
+   ]
+  }
+ ]
+}

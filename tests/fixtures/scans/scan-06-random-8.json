@@ -1,0 +1,267 @@
+{
+ "id": "scan-06-random-8",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {
+  "blur": 0.4
+ },
+ "boxes": [
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2026-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A5391",
+   "gtin": "06291136731836",
+   "serial": "9596809425",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1597,
+     635
+    ],
+    [
+     1239,
+     915
+    ],
+    [
+     1075,
+     705
+    ],
+    [
+     1433,
+     425
+    ]
+   ]
+  },
+  {
+   "name": "Lorvexa",
+   "kind": "invented",
+   "strength": "20 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2026-08-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B5380A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     725,
+     920
+    ],
+    [
+     1206,
+     1211
+    ],
+    [
+     1071,
+     1434
+    ],
+    [
+     590,
+     1143
+    ]
+   ]
+  },
+  {
+   "name": "Gaviscon",
+   "kind": "brand",
+   "strength": null,
+   "form": "Syrup",
+   "pack": "150 ml",
+   "expiry": "2026-07-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K2814A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     535,
+     556
+    ],
+    [
+     84,
+     441
+    ],
+    [
+     145,
+     202
+    ],
+    [
+     596,
+     317
+    ]
+   ]
+  },
+  {
+   "name": "Ventolin",
+   "kind": "brand",
+   "strength": "100 mcg",
+   "form": "Inhaler",
+   "pack": "200 inhaler",
+   "expiry": "2028-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "K8746",
+   "gtin": "06291100246441",
+   "serial": "8980938201",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     361,
+     1286
+    ],
+    [
+     377,
+     1763
+    ],
+    [
+     147,
+     1770
+    ],
+    [
+     131,
+     1293
+    ]
+   ]
+  },
+  {
+   "name": "Metformin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "60 tablets",
+   "expiry": "2027-09-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B9217B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1718,
+     1777
+    ],
+    [
+     1727,
+     1292
+    ],
+    [
+     2004,
+     1297
+    ],
+    [
+     1995,
+     1782
+    ]
+   ]
+  },
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2029-01-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K8815A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1664,
+     719
+    ],
+    [
+     1527,
+     243
+    ],
+    [
+     1784,
+     169
+    ],
+    [
+     1921,
+     645
+    ]
+   ]
+  },
+  {
+   "name": "Orelix",
+   "kind": "invented",
+   "strength": "150 mg",
+   "form": "Capsule",
+   "pack": "30 capsules",
+   "expiry": "2028-03-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K4392",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1836,
+     701
+    ],
+    [
+     2178,
+     1038
+    ],
+    [
+     1978,
+     1241
+    ],
+    [
+     1636,
+     904
+    ]
+   ]
+  },
+  {
+   "name": "Zyrtec",
+   "kind": "brand",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     670,
+     552
+    ],
+    [
+     1136,
+     345
+    ],
+    [
+     1230,
+     558
+    ],
+    [
+     764,
+     765
+    ]
+   ]
+  }
+ ]
+}

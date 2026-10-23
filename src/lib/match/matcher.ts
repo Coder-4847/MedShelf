@@ -19,6 +19,13 @@ export interface DrugMatch {
   /** 0..1 */
   score: number
   kind: MatchKind
+  /**
+   * True when the text equals the name (or differs only by OCR-confusable characters).
+   * Anything else is a fuzzy guess and must be shown as "Check this".
+   */
+  exact: boolean
+  /** Unclipped score used only for ordering ties (name > alias > generic). */
+  rank?: number
 }
 
 /** Score at or above which a name match is treated as reliable; below it, "Check this". */
@@ -104,7 +111,7 @@ export class DrugMatcher {
     const results = new Map<DrugEntry, DrugMatch>()
     const consider = (m: DrugMatch) => {
       const prev = results.get(m.entry)
-      if (!prev || m.score > prev.score) results.set(m.entry, m)
+      if (!prev || (m.rank ?? m.score) > (prev.rank ?? prev.score)) results.set(m.entry, m)
     }
 
     // Learned aliases first: exact key on the whole text or any contiguous word window.
@@ -112,7 +119,7 @@ export class DrugMatcher {
       for (let i = 0; i + n <= words.length; i++) {
         const key = words.slice(i, i + n).join(' ')
         const entry = this.learned.get(key)
-        if (entry) consider({ entry, variant: key, score: 0.98, kind: 'learned' })
+        if (entry) consider({ entry, variant: key, score: 0.98, kind: 'learned', exact: true })
       }
     }
 
@@ -129,13 +136,19 @@ export class DrugMatcher {
 
     for (const v of this.variants) {
       let best = 0
+      let bestExact = false
       for (const w of windows) {
         // Single short words are too ambiguous for fuzzy matching: require them exact.
         const exactOnly = w.text.replace(/ /g, '').length < 5 || v.norm.length < 5
         let s: number
-        if (w.text === v.norm) s = 1
-        else if (w.skel === v.skel) s = 0.96
-        else if (exactOnly) continue
+        let exact = false
+        if (w.text === v.norm) {
+          s = 1
+          exact = true
+        } else if (w.skel === v.skel) {
+          s = 0.96
+          exact = true
+        } else if (exactOnly) continue
         else {
           if (Math.abs(w.text.length - v.norm.length) > Math.max(3, v.norm.length * 0.35)) continue
           s = Math.max(ratio(w.text, v.norm), ratio(w.skel, v.skel) - 0.02)
@@ -147,14 +160,29 @@ export class DrugMatcher {
         s *= 0.92 + 0.08 * coverage
         // Longer variants win ties: "Panadol Extra" beats "Panadol" on the text "Panadol Extra".
         s += Math.min(0.01, v.tokens.length * 0.003)
+        // On ties the product's own name beats an alias, which beats a generic name that
+        // several products share (so "Atorvastatin" resolves to Atorvastatin, not to a brand).
         if (v.kind === 'generic') s -= 0.01
-        if (s > best) best = s
+        else if (v.kind === 'name') s += 0.006
+        if (s > best) {
+          best = s
+          bestExact = exact
+        }
       }
       if (best >= MIN_MATCH) {
-        consider({ entry: v.entry, variant: v.raw, score: Math.min(1, best), kind: v.kind })
+        consider({
+          entry: v.entry,
+          variant: v.raw,
+          score: Math.min(1, best),
+          kind: v.kind,
+          exact: bestExact,
+          rank: best,
+        })
       }
     }
-    return [...results.values()].sort((a, b) => b.score - a.score).slice(0, limit)
+    return [...results.values()]
+      .sort((a, b) => (b.rank ?? b.score) - (a.rank ?? a.score))
+      .slice(0, limit)
   }
 }
 

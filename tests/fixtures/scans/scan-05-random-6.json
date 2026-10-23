@@ -1,0 +1,201 @@
+{
+ "id": "scan-05-random-6",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {},
+ "boxes": [
+  {
+   "name": "Loratadine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2027-04-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B5228B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     51,
+     1503
+    ],
+    [
+     260,
+     1070
+    ],
+    [
+     463,
+     1167
+    ],
+    [
+     254,
+     1600
+    ]
+   ]
+  },
+  {
+   "name": "Calmexa",
+   "kind": "invented",
+   "strength": "100 mg",
+   "form": "Tablet",
+   "pack": "12 tablets",
+   "expiry": "2026-09-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X6195B",
+   "gtin": "06291104937291",
+   "serial": "5155056489",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     764,
+     1029
+    ],
+    [
+     710,
+     517
+    ],
+    [
+     996,
+     487
+    ],
+    [
+     1050,
+     999
+    ]
+   ]
+  },
+  {
+   "name": "Omeprazole",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Capsule",
+   "pack": "14 capsules",
+   "expiry": "2029-07-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "M8497A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1646,
+     1027
+    ],
+    [
+     1615,
+     474
+    ],
+    [
+     1840,
+     461
+    ],
+    [
+     1871,
+     1014
+    ]
+   ]
+  },
+  {
+   "name": "Cetirizine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": "2027-01-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "A8846B",
+   "gtin": "06291189972101",
+   "serial": "6551496920",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     490,
+     842
+    ],
+    [
+     16,
+     625
+    ],
+    [
+     122,
+     394
+    ],
+    [
+     596,
+     611
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2028-09-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B7531B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     2224,
+     670
+    ],
+    [
+     1779,
+     415
+    ],
+    [
+     1918,
+     174
+    ],
+    [
+     2363,
+     429
+    ]
+   ]
+  },
+  {
+   "name": "Zentora",
+   "kind": "invented",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": "2027-03-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "K4667",
+   "gtin": "06291162540211",
+   "serial": "8288550949",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1701,
+     1650
+    ],
+    [
+     1283,
+     1308
+    ],
+    [
+     1461,
+     1092
+    ],
+    [
+     1879,
+     1434
+    ]
+   ]
+  }
+ ]
+}

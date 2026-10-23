@@ -1,0 +1,269 @@
+{
+ "id": "scan-11-glare-dim",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {
+  "glare": 0.45,
+  "dim": 0.78,
+  "blur": 0.7
+ },
+ "boxes": [
+  {
+   "name": "Calmexa",
+   "kind": "invented",
+   "strength": "100 mg",
+   "form": "Tablet",
+   "pack": "12 tablets",
+   "expiry": "2027-03-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "X4197B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     434,
+     495
+    ],
+    [
+     863,
+     267
+    ],
+    [
+     988,
+     503
+    ],
+    [
+     559,
+     731
+    ]
+   ]
+  },
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     2280,
+     833
+    ],
+    [
+     2262,
+     1343
+    ],
+    [
+     2034,
+     1335
+    ],
+    [
+     2052,
+     825
+    ]
+   ]
+  },
+  {
+   "name": "Paracetamol",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "20 tablets",
+   "expiry": "2029-12-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "A1838A",
+   "gtin": "06291182900101",
+   "serial": "5394608514",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1799,
+     52
+    ],
+    [
+     1895,
+     586
+    ],
+    [
+     1641,
+     632
+    ],
+    [
+     1545,
+     98
+    ]
+   ]
+  },
+  {
+   "name": "Ventolin",
+   "kind": "brand",
+   "strength": "100 mcg",
+   "form": "Inhaler",
+   "pack": "200 inhaler",
+   "expiry": "2029-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "M8899A",
+   "gtin": "06291110768407",
+   "serial": "1777304182",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     552,
+     1189
+    ],
+    [
+     1013,
+     1065
+    ],
+    [
+     1074,
+     1291
+    ],
+    [
+     613,
+     1415
+    ]
+   ]
+  },
+  {
+   "name": "Ibuprofen",
+   "kind": "generic",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2026-08-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "A6905",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1313,
+     1611
+    ],
+    [
+     1174,
+     1120
+    ],
+    [
+     1447,
+     1043
+    ],
+    [
+     1586,
+     1534
+    ]
+   ]
+  },
+  {
+   "name": "Gaviscon",
+   "kind": "brand",
+   "strength": null,
+   "form": "Syrup",
+   "pack": "150 ml",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     671,
+     762
+    ],
+    [
+     1066,
+     507
+    ],
+    [
+     1203,
+     720
+    ],
+    [
+     808,
+     975
+    ]
+   ]
+  },
+  {
+   "name": "Lorvexa",
+   "kind": "invented",
+   "strength": "20 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2028-02-29",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A6223",
+   "gtin": "06291115554135",
+   "serial": "5805382228",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1869,
+     1175
+    ],
+    [
+     2176,
+     1511
+    ],
+    [
+     1989,
+     1683
+    ],
+    [
+     1682,
+     1347
+    ]
+   ]
+  },
+  {
+   "name": "Brufen",
+   "kind": "brand",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2028-02-29",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K3818B",
+   "gtin": "06291155793723",
+   "serial": "1919049128",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     763,
+     941
+    ],
+    [
+     320,
+     1279
+    ],
+    [
+     151,
+     1057
+    ],
+    [
+     594,
+     719
+    ]
+   ]
+  }
+ ]
+}

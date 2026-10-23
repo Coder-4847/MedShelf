@@ -1,0 +1,331 @@
+{
+ "id": "scan-08-random-10",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {
+  "blur": 0.5
+ },
+ "boxes": [
+  {
+   "name": "Metformin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "60 tablets",
+   "expiry": "2027-06-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "A6753",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1084,
+     604
+    ],
+    [
+     1397,
+     240
+    ],
+    [
+     1574,
+     392
+    ],
+    [
+     1261,
+     756
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2028-01-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X6029A",
+   "gtin": "06291118715366",
+   "serial": "9447677086",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1881,
+     754
+    ],
+    [
+     1770,
+     1268
+    ],
+    [
+     1533,
+     1216
+    ],
+    [
+     1644,
+     702
+    ]
+   ]
+  },
+  {
+   "name": "Omeprazole",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Capsule",
+   "pack": "14 capsules",
+   "expiry": "2026-06-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X5535A",
+   "gtin": "06291155320509",
+   "serial": "4821144783",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     857,
+     1117
+    ],
+    [
+     360,
+     1168
+    ],
+    [
+     331,
+     889
+    ],
+    [
+     828,
+     838
+    ]
+   ]
+  },
+  {
+   "name": "Nuvira",
+   "kind": "invented",
+   "strength": "5 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-08-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "M7589B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     453,
+     179
+    ],
+    [
+     297,
+     693
+    ],
+    [
+     69,
+     623
+    ],
+    [
+     225,
+     109
+    ]
+   ]
+  },
+  {
+   "name": "Ibuprofen",
+   "kind": "generic",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-04-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A3795B",
+   "gtin": "06291135878051",
+   "serial": "2408700935",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     646,
+     279
+    ],
+    [
+     1136,
+     88
+    ],
+    [
+     1230,
+     329
+    ],
+    [
+     740,
+     520
+    ]
+   ]
+  },
+  {
+   "name": "Cetirizine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1301,
+     1461
+    ],
+    [
+     1130,
+     984
+    ],
+    [
+     1365,
+     899
+    ],
+    [
+     1536,
+     1376
+    ]
+   ]
+  },
+  {
+   "name": "Augmentin",
+   "kind": "brand",
+   "strength": "625 mg",
+   "form": "Tablet",
+   "pack": "14 tablets",
+   "expiry": "2028-04-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "B9912B",
+   "gtin": "06291172157850",
+   "serial": "9842621763",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1869,
+     31
+    ],
+    [
+     2367,
+     49
+    ],
+    [
+     2357,
+     317
+    ],
+    [
+     1859,
+     299
+    ]
+   ]
+  },
+  {
+   "name": "Atorvastatin",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-03-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X7973",
+   "gtin": "06291108677742",
+   "serial": "1041045838",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1088,
+     943
+    ],
+    [
+     1197,
+     1429
+    ],
+    [
+     960,
+     1483
+    ],
+    [
+     851,
+     997
+    ]
+   ]
+  },
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2028-09-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K2156",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1815,
+     1198
+    ],
+    [
+     2119,
+     772
+    ],
+    [
+     2339,
+     930
+    ],
+    [
+     2035,
+     1356
+    ]
+   ]
+  },
+  {
+   "name": "Gaviscon",
+   "kind": "brand",
+   "strength": null,
+   "form": "Syrup",
+   "pack": "150 ml",
+   "expiry": "2028-01-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "A9159A",
+   "gtin": "06291137324419",
+   "serial": "9198570941",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     45,
+     1313
+    ],
+    [
+     555,
+     1270
+    ],
+    [
+     575,
+     1507
+    ],
+    [
+     65,
+     1550
+    ]
+   ]
+  }
+ ]
+}

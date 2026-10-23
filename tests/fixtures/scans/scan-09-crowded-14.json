@@ -1,0 +1,457 @@
+{
+ "id": "scan-09-crowded-14",
+ "width": 2400,
+ "height": 1800,
+ "rotation": "random",
+ "effects": {},
+ "boxes": [
+  {
+   "name": "Omeprazole",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Capsule",
+   "pack": "14 capsules",
+   "expiry": "2026-12-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "A8552A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     838,
+     1300
+    ],
+    [
+     489,
+     1628
+    ],
+    [
+     304,
+     1432
+    ],
+    [
+     653,
+     1104
+    ]
+   ]
+  },
+  {
+   "name": "Ventolin",
+   "kind": "brand",
+   "strength": "100 mcg",
+   "form": "Inhaler",
+   "pack": "200 inhaler",
+   "expiry": "2028-11-30",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K5084B",
+   "gtin": "06291111596337",
+   "serial": "6250278234",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1419,
+     1115
+    ],
+    [
+     958,
+     912
+    ],
+    [
+     1055,
+     691
+    ],
+    [
+     1516,
+     894
+    ]
+   ]
+  },
+  {
+   "name": "Paracetamol",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "20 tablets",
+   "expiry": "2028-03-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "X7965A",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1185,
+     17
+    ],
+    [
+     1649,
+     76
+    ],
+    [
+     1621,
+     295
+    ],
+    [
+     1157,
+     236
+    ]
+   ]
+  },
+  {
+   "name": "Gaviscon",
+   "kind": "brand",
+   "strength": null,
+   "form": "Syrup",
+   "pack": "150 ml",
+   "expiry": "2027-10-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": false,
+   "batch": "M9843",
+   "gtin": "06291128023840",
+   "serial": "7597373397",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1031,
+     343
+    ],
+    [
+     513,
+     327
+    ],
+    [
+     521,
+     67
+    ],
+    [
+     1039,
+     83
+    ]
+   ]
+  },
+  {
+   "name": "Calmexa",
+   "kind": "invented",
+   "strength": "100 mg",
+   "form": "Tablet",
+   "pack": "12 tablets",
+   "expiry": "2027-03-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "B4087A",
+   "gtin": "06291108465189",
+   "serial": "4543863038",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1320,
+     1594
+    ],
+    [
+     865,
+     1571
+    ],
+    [
+     878,
+     1320
+    ],
+    [
+     1333,
+     1343
+    ]
+   ]
+  },
+  {
+   "name": "Ibuprofen",
+   "kind": "generic",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1723,
+     1418
+    ],
+    [
+     1742,
+     940
+    ],
+    [
+     1993,
+     950
+    ],
+    [
+     1974,
+     1428
+    ]
+   ]
+  },
+  {
+   "name": "Nuvira",
+   "kind": "invented",
+   "strength": "5 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2026-09-30",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "K7999",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1558,
+     1356
+    ],
+    [
+     1975,
+     1582
+    ],
+    [
+     1864,
+     1786
+    ],
+    [
+     1447,
+     1560
+    ]
+   ]
+  },
+  {
+   "name": "Amoxicillin",
+   "kind": "generic",
+   "strength": "500 mg",
+   "form": "Capsule",
+   "pack": "16 capsules",
+   "expiry": "2027-01-31",
+   "expiryFromBarcode": false,
+   "expiryPrinted": true,
+   "batch": "B2123B",
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     660,
+     786
+    ],
+    [
+     208,
+     797
+    ],
+    [
+     202,
+     528
+    ],
+    [
+     654,
+     517
+    ]
+   ]
+  },
+  {
+   "name": "Panadol",
+   "kind": "brand",
+   "strength": "500 mg",
+   "form": "Tablet",
+   "pack": "24 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     805,
+     589
+    ],
+    [
+     1152,
+     267
+    ],
+    [
+     1309,
+     435
+    ],
+    [
+     962,
+     757
+    ]
+   ]
+  },
+  {
+   "name": "Betaprin",
+   "kind": "invented",
+   "strength": "75 mg",
+   "form": "Tablet",
+   "pack": "28 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     1956,
+     228
+    ],
+    [
+     1992,
+     763
+    ],
+    [
+     1740,
+     780
+    ],
+    [
+     1704,
+     245
+    ]
+   ]
+  },
+  {
+   "name": "Cetirizine",
+   "kind": "generic",
+   "strength": "10 mg",
+   "form": "Tablet",
+   "pack": "10 tablets",
+   "expiry": null,
+   "expiryFromBarcode": false,
+   "expiryPrinted": false,
+   "batch": null,
+   "gtin": null,
+   "serial": null,
+   "hasDataMatrix": false,
+   "quad": [
+    [
+     2386,
+     466
+    ],
+    [
+     2219,
+     913
+    ],
+    [
+     1986,
+     826
+    ],
+    [
+     2153,
+     379
+    ]
+   ]
+  },
+  {
+   "name": "Veldrin",
+   "kind": "invented",
+   "strength": "250 mg",
+   "form": "Capsule",
+   "pack": "20 capsules",
+   "expiry": "2026-12-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "A4481A",
+   "gtin": "06291123575184",
+   "serial": "8486036808",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     2320,
+     931
+    ],
+    [
+     2295,
+     1424
+    ],
+    [
+     2078,
+     1413
+    ],
+    [
+     2103,
+     920
+    ]
+   ]
+  },
+  {
+   "name": "Atorvastatin",
+   "kind": "generic",
+   "strength": "20 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2027-08-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "X5757",
+   "gtin": "06291199728279",
+   "serial": "8329936648",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     1424,
+     820
+    ],
+    [
+     1425,
+     371
+    ],
+    [
+     1646,
+     372
+    ],
+    [
+     1645,
+     821
+    ]
+   ]
+  },
+  {
+   "name": "Brufen",
+   "kind": "brand",
+   "strength": "400 mg",
+   "form": "Tablet",
+   "pack": "30 tablets",
+   "expiry": "2028-05-31",
+   "expiryFromBarcode": true,
+   "expiryPrinted": true,
+   "batch": "K9331B",
+   "gtin": "06291113152968",
+   "serial": "4406642101",
+   "hasDataMatrix": true,
+   "quad": [
+    [
+     14,
+     1773
+    ],
+    [
+     44,
+     1254
+    ],
+    [
+     266,
+     1267
+    ],
+    [
+     236,
+     1786
+    ]
+   ]
+  }
+ ]
+}
