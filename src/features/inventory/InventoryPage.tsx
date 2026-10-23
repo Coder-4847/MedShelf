@@ -622,6 +622,21 @@ export function InventoryPage() {
           </div>
         </div>
 
+        {view === 'expired' && counts.expired > 0 && (
+          <div
+            role="note"
+            className="mb-3 flex items-start gap-3 rounded-xl border border-line bg-surface p-3 text-sm"
+            data-testid="expired-note"
+          >
+            <Icon name="info" size={18} className="mt-0.5 shrink-0 text-muted" />
+            <p>
+              <strong>Expired medicines checklist.</strong> Return expired medicines to a pharmacy
+              or follow your local disposal guidance. Tick the ones you have dealt with and choose{' '}
+              <em>Mark disposed</em>; they move to the Disposed list.
+            </p>
+          </div>
+        )}
+
         {/* Bulk bar */}
         {selectedIds.length > 0 && (
           <div
@@ -797,13 +812,15 @@ export function InventoryPage() {
                       className={`rounded-[14px] border border-line bg-surface p-3 shadow-sm ${r.status === 'disposed' ? 'opacity-60' : ''}`}
                     >
                       <div className="flex items-start gap-3">
-                        <input
-                          type="checkbox"
-                          className="mt-3 h-5 w-5 accent-[var(--accent)]"
-                          aria-label={`Select ${r.name}`}
-                          checked={row.getIsSelected()}
-                          onChange={row.getToggleSelectedHandler()}
-                        />
+                        <label className="-ml-1 flex h-11 w-11 shrink-0 items-center justify-center">
+                          <input
+                            type="checkbox"
+                            className="h-5 w-5 accent-[var(--accent)]"
+                            aria-label={`Select ${r.name}`}
+                            checked={row.getIsSelected()}
+                            onChange={row.getToggleSelectedHandler()}
+                          />
+                        </label>
                         <button
                           className="flex min-w-0 flex-1 items-start gap-3 text-left"
                           onClick={() => setOpenId(r.id!)}

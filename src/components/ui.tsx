@@ -388,7 +388,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
               <span className="flex-1">{t.message}</span>
               {t.action && (
                 <button
-                  className="min-h-[36px] rounded-lg px-3 font-semibold underline underline-offset-2"
+                  className="min-h-[44px] rounded-lg px-3 font-semibold underline underline-offset-2"
                   onClick={() => {
                     t.action!.onClick()
                     dismiss(t.id)
@@ -399,7 +399,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
               )}
               <button
                 aria-label="Dismiss"
-                className="min-h-[36px] min-w-[36px] rounded-lg opacity-70 hover:opacity-100"
+                className="min-h-[44px] min-w-[44px] rounded-lg opacity-70 hover:opacity-100"
                 onClick={() => dismiss(t.id)}
               >
                 <Icon name="x" size={16} className="mx-auto" />

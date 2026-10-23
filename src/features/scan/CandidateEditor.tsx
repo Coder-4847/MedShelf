@@ -43,7 +43,14 @@ export function CandidateEditor({
   onDiscard: () => void
   onRestore: () => void
 }) {
-  const ids = { name: useId(), strength: useId(), form: useId(), pack: useId() }
+  const ids = {
+    name: useId(),
+    strength: useId(),
+    form: useId(),
+    pack: useId(),
+    batch: useId(),
+    category: useId(),
+  }
   const [matcher, setMatcher] = useState<DrugMatcher | null>(null)
   const [suggestions, setSuggestions] = useState<{ name: string; score: number }[]>([])
 
@@ -206,15 +213,17 @@ export function CandidateEditor({
           />
           {c.expiryDate && <span className="text-xs text-muted">{formatExpiry(c.expiryDate)}</span>}
         </Field>
-        <Field label="Batch / lot">
+        <Field label="Batch / lot" htmlFor={ids.batch}>
           <input
+            id={ids.batch}
             className="field"
             value={c.batch ?? ''}
             onChange={(e) => onChange({ batch: e.target.value || undefined })}
           />
         </Field>
-        <Field label="Category">
+        <Field label="Category" htmlFor={ids.category}>
           <select
+            id={ids.category}
             className="field"
             value={c.category ?? ''}
             onChange={(e) => onChange({ category: e.target.value || undefined })}
